@@ -1,0 +1,744 @@
+CommodityGroup,Commodity,Market,Variety,Grade,Model
+Cereals,Bajra,BALLARI,Hybrid,Average,Jasma1.1.ETSv1
+Cereals,Bajra,BASAVAKALYANA,Local,Average,Ashok1.1BATSv1
+Cereals,Bajra,BENGALURU,Hybrid,Average,Ashok2.2.ETSv2
+Cereals,Bajra,KALABURAGI,Local,Average,Ashok1.4ETSv4
+Cereals,Bajra,KOPPAL,Hybrid,Average,Ashok1.4ETSv4
+Cereals,Bajra,KOTTUR,Hybrid,Average,Jasma1.3.ETSv3
+Cereals,Bajra,KUSTAGI,Hybrid,Average,Ashok1.1BATSv1
+Cereals,Bajra,LINGASARGUR,Hybrid,Average,Ashok1.1BATSv1
+Cereals,Bajra,RONA,Hybrid,Average,Jasma1.2.ETSv2
+Cereals,Bajra,VIJAYAPURA,Hybrid,Average,Jasma1.3.ETSv3
+Cereals,Jowar,ATHANI,Jowar ( White),Average,Ashok2.1.ETSv1
+Cereals,Jowar,BALLARI,Jowar Hybrid,Average,Jasma1.4.ETSv4
+Cereals,Jowar,BASAVAKALYANA,Hybrid,Average,Ashok.BaggedETS.BaggedModelv1
+Cereals,Jowar,BASAVAKALYANA,Jowar ( White),Average,Ashok5.1.StructTSv1
+Cereals,Jowar,BASAVAKALYANA,Jowar (Yellow),Average,Ashok5.1.StructTSv1
+Cereals,Jowar,BELAGAVI,Jowar ( White),Average,Jasma5.1.BaggedModelv1
+Cereals,Jowar,BENGALURU,Jowar ( White),Average,Ashok1.1BATSv1
+Cereals,Jowar,BIDAR,Jowar ( White),Average,Ashok3.1ARFIMAV1
+Cereals,Jowar,GADAG,Jowar ( White),Average,Ashok1.1BATSv1
+Cereals,Jowar,KALABURAGI,Jowar ( White),Average,Jasma1.4.ETSv4
+Cereals,Jowar,LAXMESHWAR,Jowar ( White),Average,Basic NN
+Cereals,Jowar,RAICHUR,Jowar ( White),Average,Jasma1.2.ETSv2
+Cereals,Jowar,RAICHUR,Jowar Hybrid,Average,Jasma1.2.ETSv2
+Cereals,Jowar,SINDHANUR,Jowar Hybrid,Average,Ashok1.1BATSv1
+Cereals,Jowar,VIJAYAPURA,Jowar ( White),Average,Jasma3.1.ARFIMAv1
+Cereals,Maize,ARSIKERE,Local,Average,Jasma1.4.ETSv4
+Cereals,Maize,ATHANI,Hybrid/Local,Average,Jasma1.1.ETSv1
+Cereals,Maize,BAGEPALLI,Other,Average,Ashok.BaggedETS.BaggedModelv1
+Cereals,Maize,BALLARI,Local,Average,Jasma1.1.ETSv1
+Cereals,Maize,BALLARI,Sweet Corn (For Biscuits),Average,Ashok5.1.StructTSv1
+Cereals,Maize,BELUR,Hybrid/Local,Average,Jasma1.4.ETSv4
+Cereals,Maize,BENGALURU,Hybrid/Local,Average,Ashok3.1ARFIMAV1
+Cereals,Maize,BHADRAVATHI,Local,Average,Jasma1.4.ETSv4
+Cereals,Maize,CHALLAKERE,Yellow,Average,Jasma1.2.ETSv2
+Cereals,Maize,CHIKKAMAGALURU,Local,Average,Jasma1.1.ETSv1
+Cereals,Maize,CHITRADURGA,Local,Average,Ashok1.4ETSv4
+Cereals,Maize,DAVANAGERE,Local,Average,Ashok1.1BATSv1
+Cereals,Maize,DHARWAR,Local,Average,Jasma1.1.ETSv1
+Cereals,Maize,DODDABALLAPUR,Local,Average,Ashok5.1.StructTSv1
+Cereals,Maize,GADAG,Local,Average,Ashok5.1.StructTSv1
+Cereals,Maize,GOKAK,Local,Average,Jasma1.4.ETSv4
+Cereals,Maize,GOWRIBIDNUR,Hybrid/Local,Average,Ashok1.4ETSv4
+Cereals,Maize,GUNDLUPET,Local,Average,Ashok.NNFor
+Cereals,Maize,HALIYALA,Hybrid/Local,Average,Jasma5.1.BaggedModelv1
+Cereals,Maize,HARIHARA,Hybrid/Local,Average,Ashok5.1.StructTSv1
+Cereals,Maize,HASSAN,Local,Average,Ashok5.1.StructTSv1
+Cereals,Maize,HAVERI,Local,Medium,Jasma1.1.ETSv1
+Cereals,Maize,HIREKERUR,Hybrid/Local,Average,Jasma1.4.ETSv4
+Cereals,Maize,HOLENARASIPUR,Local,Average,Jasma5.1.BaggedModelv1
+Cereals,Maize,HOOVINAHADAGALI,Yellow,Average,Ashok3.1.BaggedModelv1
+Cereals,Maize,K.R.NAGAR,Local,Average,Jasma1.4.ETSv4
+Cereals,Maize,KADUR,Other,Average,Jasma1.1.ETSv1
+Cereals,Maize,KALGHATGI,Local,Average,Ashok5.1.StructTSv1
+Cereals,Maize,KOPPAL,Yellow,Average,Ashok1.4ETSv4
+Cereals,Maize,KOTTUR,Hybrid/Local,Average,Jasma1.1.ETSv1
+Cereals,Maize,KUDCHI,Hybrid/Local,Average,Jasma1.4.ETSv4
+Cereals,Maize,KUSTAGI,Hybrid/Local,Average,Jasma1.3.ETSv3
+Cereals,Maize,MADHUGIRI,Hybrid/Local,Average,Jasma1.2.ETSv2
+Cereals,Maize,MUNDAGOD,Hybrid/Local,Average,Jasma1.1.ETSv1
+Cereals,Maize,MUNDARGI,Yellow,Average,Jasma1.4.ETSv4
+Cereals,Maize,MYSURU,Local,Average,Jasma1.4.ETSv4
+Cereals,Maize,PERIYAPATNA,Hybrid/Local,Average,Jasma1.4.ETSv4
+Cereals,Maize,RANIBENNUR,Local,Medium,Ashok1.1BATSv1
+Cereals,Maize,SHIKARIPUR,Local,Medium,Ashok1.1BATSv1
+Cereals,Maize,RONA,Hybrid/Local,Average,Jasma1.4.ETSv4
+Cereals,Maize,SANKESHWAR,Hybrid/Local,Average,Ashok3.1.BaggedModelv1
+Cereals,Maize,SANTHESARGUR,Local,Average,Basic NN
+Cereals,Maize,SAVADATTI,Local,Average,Jasma1.1.ETSv1
+Cereals,Maize,SHIVAMOGGA,Hybrid/Local,Average,Jasma1.3.ETSv3
+Cereals,Maize,SOMWARPET,Local,Average,Jasma5.1.BaggedModelv1
+Cereals,Maize,SORABHA,Local,Average,Jasma1.3.ETSv3
+Cereals,Maize,TUMAKURU,Local,Average,Ashok2.2.ETSv2
+Cereals,Maize,VIJAYAPURA,Hybrid/Local,Average,Ashok5.1.StructTSv1
+Cereals,Navane,BALLARI,Navane Hybrid,Average,Ashok5.1.StructTSv1
+Cereals,Navane,BENGALURU,Other,Average,Jasma2.1BATSv1
+Cereals,Navane,KOPPAL,Navane Hybrid,Average,Jasma3.1.ARFIMAv1
+Cereals,Navane,KUSTAGI,Navane Hybrid,Average,Jasma3.1.ARFIMAv1
+Cereals,Paddy,BANGARPET,Paddy Fine Variety,Average,Jasma1.3.ETSv3
+Cereals,Paddy,BELTHANGADI,Paddy,Average,Basic NN
+Cereals,Paddy,BELUR,Paddy,Average,Ashok5.1.StructTSv1
+Cereals,Paddy,CHIKKAMAGALURU,Paddy Fine Variety,Average,Jasma1.1.ETSv1
+Cereals,Paddy,DAVANAGERE,Paddy Medium Variety,Average,Jasma1.1.ETSv1
+Cereals,Paddy,GANGAVATI,I.R. 64,Average,Basic NN
+Cereals,Paddy,GANGAVATI,Kaveri sona,Average,Ashok2.1.ETSv1
+Cereals,Paddy,GANGAVATI,Sona Masuri New,Average,Ashok1.1BATSv1
+Cereals,Paddy,GANGAVATI,Sona Masuri Old ,Average,Ashok1.1BATSv2
+Cereals,Paddy,GONIKOPPAL,Paddy Medium Variety,Average,Basic NN
+Cereals,Paddy,HALIYALA,Paddy Medium Variety,Average,Jasma5.1.BaggedModelv1
+Cereals,Paddy,HASSAN,Paddy,Average,Basic NN
+Cereals,Paddy,HOOVINAHADAGALI,Sanna Bhatta,Average,Jasma6.1.BaggedETSv1
+Cereals,Paddy,K.R.NAGAR,Paddy,Average,Jasma5.1.BaggedModelv1
+Cereals,Paddy,K.R.PET,Paddy Coarse Variety,Average,Basic NN
+Cereals,Paddy,KARTAGI,Kaveri sona,Average,Ashok5.1.StructTSv1
+Cereals,Paddy,KARTAGI,Sona Masuri New,Average,Ashok5.1.StructTSv1
+Cereals,Paddy,KARTAGI,Sona Masuri Old ,Average,Ashok1.1BATSv1
+Cereals,Paddy,LINGASARGUR,Paddy,Average,Ashok5.1.StructTSv1
+Cereals,Paddy,MADDUR,Paddy,Average,Jasma1.1.ETSv1
+Cereals,Paddy,MANGALURU,Paddy,Average,Jasma1.2.ETSv2
+Cereals,Paddy,MUDIGERE,Paddy Medium Variety,Average,Ashok3.1ARFIMAV1
+Cereals,Paddy,MYSURU,Paddy,Average,Ashok5.1.StructTSv1
+Cereals,Paddy,NANJANGUD,Paddy Jyoti,Average,Jasma1.1.ETSv1
+Cereals,Paddy,RAICHUR,Rajahamsa,Average,Jasma1.3.ETSv3
+Cereals,Paddy,RAICHUR,Sona Mahsuri,Average,Ashok5.1.StructTSv1
+Cereals,Paddy,SAKLESHPUR,Paddy,Average,Ashok1.4ETSv4
+Cereals,Paddy,SANTHESARGUR,Paddy,Average,Jasma1.1.ETSv1
+Cereals,Paddy,SHIGGAON,Paddy,Average,Ashok2.1.ETSv1
+Cereals,Paddy,SIDDAPURA,Paddy,Average,Jasma6.1.BaggedETSv1
+Cereals,Paddy,SINDHANUR,Sona Masuri New,Average,Ashok.BaggedETS.BaggedModelv1
+Cereals,Paddy,SINDHANUR,Sona Masuri Old ,Average,Jasma1.3.ETSv3
+Cereals,Paddy,SIRAGUPPA,Sona Masuri New,Average,Jasma6.1.BaggedETSv1
+Cereals,Paddy,SIRAGUPPA,Sona Masuri Old ,Average,Jasma1.2.ETSv2
+Cereals,Paddy,SORABHA,Paddy,Average,Jasma1.4.ETSv4
+Cereals,Paddy,SRIRANGAPATNA,Paddy 1001,Average,Ashok2.1.ETSv1
+Cereals,Paddy,T.NARSIPUR,Paddy,Average,Ashok2.1.ETSv1
+Cereals,Paddy,TARIKERE,Paddy Dappa,Average,Jasma1.3.ETSv3
+Cereals,Paddy,UDIPI,Paddy,Average,Jasma6.1.BaggedETSv1
+Cereals,Ragi,ARSIKERE,Local,Average,Jasma6.1.BaggedETSv1
+Cereals,Ragi,BENGALURU,Fine,Average,Ashok1.1BATSv1
+Cereals,Ragi,CHINTAMANI,Local,Average,Jasma1.1.ETSv1
+Cereals,Ragi,DAVANAGERE,Local,Average,Jasma1.4.ETSv4
+Cereals,Ragi,GUBBI,Local,Average,Jasma5.1.BaggedModelv1
+Cereals,Ragi,HASSAN,Other,Average,Jasma5.1.BaggedModelv1
+Cereals,Ragi,HOLENARASIPUR,Local,Average,Jasma1.4.ETSv4
+Cereals,Ragi,KADUR,Red,Average,Ashok5.1.StructTSv1
+Cereals,Ragi,KOTTUR,Hybrid,Average,Jasma1.2.ETSv2
+Cereals,Ragi,MYSURU,Local,Average,Ashok1.1BATSv1
+Cereals,Ragi,NAGAMANGALA,Local,Average,Jasma5.1.BaggedModelv1
+Cereals,Ragi,PERIYAPATNA,Local,Average,Jasma6.1.BaggedETSv1
+Cereals,Ragi,SHIVAMOGGA,Red,Average,Jasma1.2.ETSv2
+Cereals,Ragi,TUMAKURU,Local,Average,Ashok3.1.BaggedModelv1
+Cereals,Rice,BANGARPET,Broken Rice,Average,Jasma5.1.BaggedModelv1
+Cereals,Rice,BANGARPET,I. R. - 64,Average,Ashok.BaggedETS.BaggedModelv1
+Cereals,Rice,BENGALURU,Medium,Average,Ashok1.4ETSv4
+Cereals,Rice,BIDAR,Broken Rice,Average,Ashok1.4ETSv4
+Cereals,Rice,BIDAR,CR 1009 (Coarse) Boiled,Average,Ashok1.4ETSv4
+Cereals,Rice,CHINTAMANI,Broken Rice,Average,Ashok3.1ARFIMAV1
+Cereals,Rice,CHINTAMANI,Hansa,Average,Jasma2.1BATSv1
+Cereals,Rice,CHINTAMANI,Sona,Average,Ashok1.4ETSv4
+Cereals,Rice,GANGAVATI,Other,Average,Jasma1.2.ETSv2
+Cereals,Rice,KALABURAGI,Broken Rice,Average,Ashok1.4ETSv4
+Cereals,Rice,KALABURAGI,Fine,Average,Ashok5.1.StructTSv1
+Cereals,Rice,KOLAR,Fine,Average,Ashok3.1.BaggedModelv1
+Cereals,Rice,MANGALURU,Fine,Average,Ashok2.2.ETSv2
+Cereals,Rice,MANGALURU,IR-8,Average,Jasma1.2.ETSv2
+Cereals,Rice,MANGALURU,Kattasambar,Average,Ashok.NNFor
+Cereals,Rice,MYSURU,Broken Rice,Average,Ashok1.4ETSv4
+Cereals,Rice,MYSURU,Fine,Average,Ashok5.1.StructTSv1
+Cereals,Rice,SHIVAMOGGA,Coarse,Average,Jasma5.1.BaggedModelv1
+Cereals,Rice,SHIVAMOGGA,Fine,Average,Jasma1.2.ETSv2
+Cereals,Rice,SHIVAMOGGA,Medium,Average,Jasma1.2.ETSv2
+Cereals,Sajje,MUNDARGI,Sajje,Average,Jasma1.4.ETSv4
+Cereals,Wheat,BASAVAKALYANA,Mexican,Average,Jasma1.3.ETSv3
+Cereals,Wheat,BASAVAKALYANA,Mill Wheat,Average,Jasma1.4.ETSv4
+Cereals,Wheat,BENGALURU,Local,Average,Jasma1.2.ETSv2
+Cereals,Wheat,BIDAR,Red,Average,Ashok5.1.StructTSv1
+Cereals,Wheat,GADAG,White,Average,Jasma6.1.BaggedETSv1
+Cereals,Wheat,KALABURAGI,Sharabathi,Average,Jasma5.1.BaggedModelv1
+Cereals,Wheat,MYSURU,Local,Average,Ashok5.1.StructTSv1
+Cereals,Wheat,SHIVAMOGGA,Medium,Average,Ashok2.2.ETSv2
+Drugs & Narcotics,Arecanut,BANTWALA,Coca,Average,Jasma5.1.BaggedModelv1
+Drugs & Narcotics,Arecanut,BANTWALA,New Variety,Average,Jasma1.2.ETSv2
+Drugs & Narcotics,Arecanut,BANTWALA,Old Variety,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,BELTHANGADI,Coca,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,BELTHANGADI,New Variety,Average,Ashok.BaggedETS.BaggedETSv2
+Drugs & Narcotics,Arecanut,BELTHANGADI,Old Variety,Average,Ashok1.4ETSv4
+Drugs & Narcotics,Arecanut,CHANNAGIRI,Rashi,Average,Jasma1.4.ETSv4
+Drugs & Narcotics,Arecanut,CHITRADURGA,Api,Average,Ashok2.2.ETSv2
+Drugs & Narcotics,Arecanut,CHITRADURGA,Bette,Average,Ashok2.2.ETSv2
+Drugs & Narcotics,Arecanut,CHITRADURGA,Kempugotu,Average,Jasma2.1BATSv1
+Drugs & Narcotics,Arecanut,CHITRADURGA,Rashi,Average,Ashok3.1ARFIMAV1
+Drugs & Narcotics,Arecanut,GONIKOPPAL,ARECANUT-HUSK,Average,Jasma1.1.ETSv1
+Drugs & Narcotics,Arecanut,HONNAVAR,Chippu,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,HONNAVAR,Factory,Average,Ashok3.1ARFIMAV1
+Drugs & Narcotics,Arecanut,HONNAVAR,Hale Chali,Average,Ashok3.1.BaggedModelv1
+Drugs & Narcotics,Arecanut,HONNAVAR,Hosa Chali,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,HONNAVAR,Kole,Average,Jasma1.3.ETSv3
+Drugs & Narcotics,Arecanut,KARKALA,Coca,Average,Ashok1.1BATSv1
+Drugs & Narcotics,Arecanut,KARKALA,New Variety,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,KARKALA,Old Variety,Average,Ashok2.2.ETSv2
+Drugs & Narcotics,Arecanut,KUMTA,Chippu,Average,Jasma6.1.BaggedETSv1
+Drugs & Narcotics,Arecanut,KUMTA,Coca,Average,Ashok3.1ARFIMAV1
+Drugs & Narcotics,Arecanut,KUMTA,Factory,Average,Ashok1.1BATSv1
+Drugs & Narcotics,Arecanut,KUMTA,Hale Chali,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,KUMTA,Hosa Chali,Average,Ashok1.4ETSv4
+Drugs & Narcotics,Arecanut,KUNDAPUR,Hale Chali,Average,Ashok2.2.ETSv2
+Drugs & Narcotics,Arecanut,KUNDAPUR,Hosa Chali,Average,Ashok4.1.BaggedETSv1
+Drugs & Narcotics,Arecanut,MANGALURU,Coca,Average,Ashok1.1BATSv1
+Drugs & Narcotics,Arecanut,MANGALURU,New Variety,Average,Ashok1.1BATSv1
+Drugs & Narcotics,Arecanut,MANGALURU,Old Variety,Average,Ashok1.1BATSv1
+Drugs & Narcotics,Arecanut,PUTTUR,Coca,Average,Ashok1.1BATSv1
+Drugs & Narcotics,Arecanut,PUTTUR,New Variety,Average,Jasma1.1.ETSv1
+Drugs & Narcotics,Arecanut,PUTTUR,Old Variety,Average,Ashok1.1BATSv1
+Drugs & Narcotics,Arecanut,SAGAR,Bilegotu,Average,Jasma1.3.ETSv3
+Drugs & Narcotics,Arecanut,SAGAR,Chali,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,SAGAR,Coca,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,SAGAR,Kempugotu,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,SAGAR,Rashi,Average,Ashok1.4ETSv4
+Drugs & Narcotics,Arecanut,SAGAR,Sippegotu,Average,Ashok.BaggedETS.BaggedETSv2
+Drugs & Narcotics,Arecanut,SHIVAMOGGA,Bette,Average,Jasma1.1.ETSv1
+Drugs & Narcotics,Arecanut,SHIVAMOGGA,Gorabalu,Average,Jasma1.3.ETSv3
+Drugs & Narcotics,Arecanut,SHIVAMOGGA,Rashi,Average,Jasma1.3.ETSv3
+Drugs & Narcotics,Arecanut,SHIVAMOGGA,Saraku,Average,Jasma1.3.ETSv3
+Drugs & Narcotics,Arecanut,SIDDAPURA,Bilegotu,Average,Ashok1.4ETSv4
+Drugs & Narcotics,Arecanut,SIDDAPURA,Chali,Average,Jasma1.4.ETSv4
+Drugs & Narcotics,Arecanut,SIDDAPURA,Coca,Average,Ashok1.1BATSv1
+Drugs & Narcotics,Arecanut,SIDDAPURA,Kempugotu,Average,Ashok1.4ETSv4
+Drugs & Narcotics,Arecanut,SIDDAPURA,Rashi,Average,Jasma1.4.ETSv4
+Drugs & Narcotics,Arecanut,SIDDAPURA,Tattibettee,Average,Jasma1.4.ETSv4
+Drugs & Narcotics,Arecanut,SIRA,Other,Average,Ashok.NNFor
+Drugs & Narcotics,Arecanut,SIRSI,Bette,Average,Ashok2.1.ETSv1
+Drugs & Narcotics,Arecanut,SIRSI,Bilegotu,Average,Ashok1.1BATSv1
+Drugs & Narcotics,Arecanut,SIRSI,Coca,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,SIRSI,Hale Chali,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,SIRSI,Hosa Chali,Average,Jasma1.4.ETSv4
+Drugs & Narcotics,Arecanut,SIRSI,Kempugotu,Average,Jasma1.3.ETSv3
+Drugs & Narcotics,Arecanut,SIRSI,Rashi,Average,Jasma1.4.ETSv4
+Drugs & Narcotics,Arecanut,SULYA,Coca,Average,Jasma6.1.BaggedETSv1
+Drugs & Narcotics,Arecanut,SULYA,New Variety,Average,Ashok1.1BATSv1
+Drugs & Narcotics,Arecanut,SULYA,Old Variety,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,TUMAKURU,Rashi,Average,Jasma1.1.ETSv1
+Drugs & Narcotics,Arecanut,YELLAPURA,Api,Average,Ashok3.1.BaggedModelv1
+Drugs & Narcotics,Arecanut,YELLAPURA,Bilegotu,Average,Ashok.NNFor
+Drugs & Narcotics,Arecanut,YELLAPURA,Chali,Average,Ashok5.1.StructTSv1
+Drugs & Narcotics,Arecanut,YELLAPURA,Coca,Average,Ashok.BaggedETS.BaggedETSv2
+Drugs & Narcotics,Arecanut,YELLAPURA,Kempugotu,Average,Ashok3.1ARFIMAV1
+Drugs & Narcotics,Arecanut,YELLAPURA,Rashi,Average,Jasma1.2.ETSv2
+Drugs & Narcotics,Arecanut,YELLAPURA,Tattibettee,Average,Ashok3.1ARFIMAV1
+Drugs & Narcotics,Betal Leaves,CHANNAPATNA,Local,Average,Jasma1.1.ETSv1
+Dry Fruits,Cashewnut,MANGALURU,Local(Raw),Average,Ashok1.1BATSv1
+Dry Fruits,Dry Grapes,BENGALURU,Dry Grapes,Average,Jasma3.1.ARFIMAv1
+Fibre Crops,Cotton,ANNIGERI,BT,Average,Jasma1.3.ETSv3
+Fibre Crops,Cotton,CHITRADURGA,D.C.H.,Average,Ashok2.1.ETSv1
+Fibre Crops,Cotton,DAVANAGERE,Brahma,Average,Ashok1.4ETSv4
+Fibre Crops,Cotton,GADAG,BT,Average,Ashok3.1ARFIMAV1
+Fibre Crops,Cotton,HUBBALLI,BT,Average,Ashok1.4ETSv4
+Fibre Crops,Cotton,KOTTUR,BT,Average,Ashok2.2.ETSv2
+Fibre Crops,Cotton,RAICHUR,HYBRID-44,Average,Ashok1.4ETSv4
+Fibre Crops,Cotton,SAVADATTI,BT,Average,Ashok4.1.BaggedETSv1
+Fibre Crops,Cotton,SAVANUR,BT,Average,Jasma1.1.ETSv1
+Fibre Crops,Cotton,SINDAGI,BANNI,Average,Ashok5.1.StructTSv1
+Fibre Crops,Cotton,VIJAYAPURA,BANNI,Average,Jasma1.4.ETSv4
+Flowers,Crysanthamum,CHICKBALLAPUR,Other,Average,Jasma1.3.ETSv3
+Flowers,Marygold,CHICKBALLAPUR,Other,Average,Ashok3.1ARFIMAV1
+Flowers,Rose,CHICKBALLAPUR,Other,Average,Ashok5.1.StructTSv1
+Forest Products,Soapnut,TUMAKURU,Medium,Average,Ashok1.4ETSv4
+Forest Products,Tamarind Fruit,BENGALURU,Tamarind Fruit,Average,Jasma1.1.ETSv1
+Forest Products,Tamarind Fruit,MYSURU,Tamarind Fruit,Average,Jasma1.2.ETSv2
+Forest Products,Tamarind Fruit,SHIVAMOGGA,Tamarind Fruit,Average,Jasma1.2.ETSv2
+Forest Products,Tamarind Fruit,TUMAKURU,Tamarind Fruit,Average,Jasma1.2.ETSv2
+Forest Products,Tamarind Seed,MYSURU,Tamarind Seed,Average,Ashok2.1.ETSv1
+Forest Products,Tamarind Seed,TUMAKURU,Tamarind Seed,Average,Ashok1.4ETSv4
+Fruits,Banana,BINNY MILL (F&V),Elakki Bale,Average,Jasma1.2.ETSv2
+Fruits,Banana,BINNY MILL (F&V),Nauti Bale,Average,Ashok3.1ARFIMAV1
+Fruits,Banana,BINNY MILL (F&V),Nendra Bale,Average,Jasma3.1.ARFIMAv1
+Fruits,Banana,BINNY MILL (F&V),Pachha Bale,Average,Ashok3.1ARFIMAV1
+Fruits,Banana,CHANNAPATNA,Elakki Bale,Average,Ashok5.1.StructTSv1
+Fruits,Banana,CHANNAPATNA,Pachha Bale,Average,Ashok2.2.ETSv2
+Fruits,Banana,MANGALURU,Elakki Bale,Average,Ashok2.1.ETSv1
+Fruits,Banana,MANGALURU,Nendra Bale,Average,Jasma1.2.ETSv2
+Fruits,Banana,MANGALURU,Other,Average,Ashok3.1ARFIMAV1
+Fruits,Banana,MANGALURU,Pachha Bale,Average,Jasma2.1BATSv1
+Fruits,Borehannu,BINNY MILL (F&V),Borehannu,Average,Ashok.NNFor
+Fruits,Chikoos (Sapota),BINNY MILL (F&V),Sapota,Average,Ashok5.1.StructTSv1
+Fruits,Grapes,BINNY MILL (F&V),Black,Average,Jasma1.4.ETSv4
+Fruits,Grapes,BINNY MILL (F&V),White,Average,Ashok1.1BATSv1
+Fruits,Karbuja,BINNY MILL (F&V),Karbhuja,Average,Jasma1.2.ETSv2
+Fruits,Mousambi,BINNY MILL (F&V),Mousambi,Average,Jasma1.4.ETSv4
+Fruits,Mousambi,BINNY MILL (F&V),Mousambi,Large,Jasma1.2.ETSv2
+Fruits,Papaya,BINNY MILL (F&V),Papaya,Average,Jasma1.2.ETSv2
+Fruits,Papaya,CHANNAPATNA,Papaya,Average,Ashok5.1.StructTSv1
+Fruits,Pine Apple,BINNY MILL (F&V),Pine Apple,Average,Ashok.BaggedETS.BaggedETSv2
+Fruits,Water Melon,BINNY MILL (F&V),Water Melon,Average,Ashok.BaggedETS.BaggedModelv1
+Live Stock/Poultry,Cow (For Each),C.R.PATNA,Cow,Average,Jasma1.3.ETSv3
+Live Stock/Poultry,Ox (For Each),C.R.PATNA,Ox,Average,Jasma2.1BATSv1
+Live Stock/Poultry,She Baffalo (For Each),C.R.PATNA,She Baffelo,Average,Ashok5.1.StructTSv1
+Live Stock/Poultry,Sheep (For Each),KUDCHI,Sheep Large,Average,Jasma6.1.BaggedETSv1
+Oil Seeds,Copra,BELTHANGADI,Copra,Average,Ashok3.1ARFIMAV1
+Oil Seeds,Copra,C.R.PATNA,Ball,Average,Jasma5.1.BaggedModelv1
+Oil Seeds,Copra,C.R.PATNA,Milling,Average,Ashok5.1.StructTSv1
+Oil Seeds,Copra,GUBBI,Ball,Average,Jasma1.2.ETSv2
+Oil Seeds,Copra,HULIYAR,Ball,Average,Ashok5.1.StructTSv1
+Oil Seeds,Copra,MANGALURU,Milling,Average,Ashok1.1BATSv1
+Oil Seeds,Copra,NAGAMANGALA,Medium,Average,Jasma1.2.ETSv2
+Oil Seeds,Copra,NAGAMANGALA,Other,Average,Ashok5.1.StructTSv1
+Oil Seeds,Copra,TIPTUR,Other,Average,Ashok.BaggedETS.BaggedModelv1
+Oil Seeds,Gingelly,GADAG,Other,Average,Ashok5.1.StructTSv1
+Oil Seeds,Groundnut,BALLARI,Big (With Shell),Average,Ashok.BaggedETS.BaggedModelv1
+Oil Seeds,Groundnut,BENGALURU,Big (With Shell),Average,Ashok3.1ARFIMAV1
+Oil Seeds,Groundnut,CHALLAKERE,Gejje,Average,Jasma1.1.ETSv1
+Oil Seeds,Groundnut,CHITRADURGA,Natte,Average,Ashok1.1BATSv1
+Oil Seeds,Groundnut,DAVANAGERE,Gejje,Average,Jasma1.4.ETSv4
+Oil Seeds,Groundnut,GADAG,Balli/Habbu,Average,Ashok4.1.BaggedETSv1
+Oil Seeds,Groundnut,GADAG,Gejje,Average,Ashok3.1ARFIMAV1
+Oil Seeds,Groundnut,HUBBALLI,Gejje,Average,Ashok1.4ETSv4
+Oil Seeds,Groundnut,HUBBALLI,Hybrid,Average,Ashok2.2.ETSv2
+Oil Seeds,Groundnut,KOPPAL,Gejje,Average,Ashok3.1.BaggedModelv1
+Oil Seeds,Groundnut,KOTTUR,Natte,Average,Jasma1.2.ETSv2
+Oil Seeds,Groundnut,LAXMESHWAR,Balli/Habbu,Average,Ashok5.1.StructTSv1
+Oil Seeds,Groundnut,LAXMESHWAR,Gejje,Average,Ashok1.4ETSv4
+Oil Seeds,Groundnut,MULBAGAL,Other,Average,Ashok3.1ARFIMAV1
+Oil Seeds,Groundnut,MUNDARGI,Gejje,Average,Jasma3.1.ARFIMAv1
+Oil Seeds,Groundnut,MYSURU,Other,Average,Ashok5.1.StructTSv1
+Oil Seeds,Groundnut,RAICHUR,Gungri (With Shell),Average,Ashok1.1BATSv1
+Oil Seeds,Groundnut,RONA,Gejje,Average,Jasma1.3.ETSv3
+Oil Seeds,Groundnut,SAVANUR,Gejje,Average,Jasma3.1.ARFIMAv1
+Oil Seeds,Groundnut,YADGIR,Big (With Shell),Average,Jasma3.1.ARFIMAv1
+Oil Seeds,Groundnut Seed,BENGALURU,Ground Nut Seed,Average,Ashok5.1.StructTSv1
+Oil Seeds,Groundnut Seed,MYSURU,Ground Nut Seed,Average,Jasma5.1.BaggedModelv1
+Oil Seeds,Mustard,BENGALURU,Other,Average,Ashok1.4ETSv4
+Oil Seeds,Safflower,BASAVAKALYANA,Safflower,Average,Jasma3.1.ARFIMAv1
+,,,,,
+Oil Seeds,Safflower,GADAG,Safflower,Average,Ashok5.1.StructTSv1
+Oil Seeds,Safflower,KALABURAGI,Safflower,Average,Jasma1.1.ETSv1
+Oil Seeds,Sesamum,BENGALURU,Black,Average,Ashok5.1.StructTSv1
+Oil Seeds,Sesamum,KALABURAGI,White,Average,Ashok1.4ETSv4
+Oil Seeds,Soyabeen,BAILHONGAL,Yellow,Average,Jasma1.2.ETSv2
+Oil Seeds,Soyabeen,BIDAR,Soyabeen,Average,Ashok1.1BATSv1
+,,,,,
+Oil Seeds,Soyabeen,HAVERI,Soyabeen,Average,Ashok5.1.StructTSv1
+Oil Seeds,Soyabeen,HUBBALLI,Soyabeen,Average,Jasma1.1.ETSv1
+Oil Seeds,Soyabeen,KALABURAGI,Soyabeen,Average,Jasma1.2.ETSv2
+Oil Seeds,Soyabeen,KALGHATGI,Soyabeen,Average,Ashok1.4ETSv4
+Oil Seeds,Soyabeen,SHIGGAON,Soyabeen,Average,Ashok5.1.StructTSv1
+Oil Seeds,Sunflower,BALLARI,Sunflower,Average,Jasma1.2.ETSv2
+Oil Seeds,Sunflower,BASAVAKALYANA,Sunflower,Average,Jasma1.4.ETSv4
+Oil Seeds,Sunflower,CHALLAKERE,Sunflower,Average,Ashok5.1.StructTSv1
+Oil Seeds,Sunflower,CHITRADURGA,Local,Average,Ashok1.4ETSv4
+Oil Seeds,Sunflower,DAVANAGERE,Local,Average,Jasma1.3.ETSv3
+Oil Seeds,Sunflower,GADAG,Sunflower,Average,Ashok5.1.StructTSv1
+Oil Seeds,Sunflower,KALABURAGI,Sunflower,Average,Ashok1.4ETSv4
+Oil Seeds,Sunflower,KOPPAL,Hybrid,Average,Ashok5.1.StructTSv1
+Oil Seeds,Sunflower,KOTTUR,Hybrid,Average,Ashok5.1.StructTSv1
+Oil Seeds,Sunflower,LAXMESHWAR,Sunflower,Average,Ashok1.4ETSv4
+Oil Seeds,Sunflower,MUNDARGI,Sunflower,Average,Jasma1.3.ETSv3
+Oil Seeds,Sunflower,RAICHUR,Sunflower,Average,Jasma1.3.ETSv3
+Oil Seeds,Sunflower,RONA,Sunflower,Average,Ashok.BaggedETS.BaggedModelv1
+Other,Coco Brooms,ARSIKERE,Coco Brooms,Average,Jasma1.1.ETSv1
+Other,Coco Brooms,GUBBI,Coco Brooms,Average,Ashok5.1.StructTSv1
+Other,Coco Brooms,HULIYAR,Coco Brooms,Average,Basic NN
+Other,Coco Brooms,TURUVEKERE,Coco Brooms,Average,Basic NN
+Other,Coconut (Per 1000),ARSIKERE,Medium,Average,Ashok3.1ARFIMAV1
+Other,Coconut (Per 1000),BELTHANGADI,Grade-I,Average,Jasma1.2.ETSv2
+Other,Coconut (Per 1000),BENGALURU,Coconut,Average,Ashok3.1ARFIMAV1
+Other,Coconut (Per 1000),BHADRAVATHI,Medium,Average,Jasma1.2.ETSv2
+Other,Coconut (Per 1000),C.R.NAGAR,Coconut,Average,Jasma6.1.BaggedETSv1
+Other,Coconut (Per 1000),C.R.PATNA,Big,Average,Ashok5.1.StructTSv1
+Other,Coconut (Per 1000),CHANNAPATNA,Coconut,Average,Jasma1.2.ETSv2
+Other,Coconut (Per 1000),CHICKBALLAPUR,Coconut,Average,Jasma1.4.ETSv4
+Other,Coconut (Per 1000),DAVANAGERE,Coconut,Average,Ashok5.1.StructTSv1
+Other,Coconut (Per 1000),GUBBI,Coconut,Average,Ashok5.1.StructTSv1
+Other,Coconut (Per 1000),GUNDLUPET,Coconut,Average,Jasma1.2.ETSv2
+Other,Coconut (Per 1000),HARIHARA,Coconut,Average,Ashok4.1.BaggedETSv1
+Other,Coconut (Per 1000),HASSAN,Other,Average,Jasma1.2.ETSv2
+Other,Coconut (Per 1000),K.R.PET,Coconut,Average,Ashok1.1BATSv1
+Other,Coconut (Per 1000),KADUR,Coconut,Average,Ashok5.1.StructTSv1
+Other,Coconut (Per 1000),KANAKAPURA,IISort  without Husk,Average,Jasma1.2.ETSv2
+Other,Coconut (Per 1000),KUMTA,Coconut,Average,Ashok2.2.ETSv2
+Other,Coconut (Per 1000),KUNDAPUR,Big,Average,Jasma1.2.ETSv2
+Other,Coconut (Per 1000),KUNDAPUR,Medium,Average,Jasma6.1.BaggedETSv1
+Other,Coconut (Per 1000),KUNIGAL,Coconut,Average,Ashok3.1ARFIMAV1
+Other,Coconut (Per 1000),MADDUR,Coconut,Average,Jasma1.2.ETSv2
+Other,Coconut (Per 1000),MALUR,Coconut,Average,Ashok2.2.ETSv2
+Other,Coconut (Per 1000),MANGALURU,Grade- II,Average,Ashok5.1.StructTSv1
+Other,Coconut (Per 1000),MANGALURU,Grade-I,Average,Ashok1.4ETSv4
+Other,Coconut (Per 1000),NAGAMANGALA,Medium,Average,Jasma1.2.ETSv2
+Other,Coconut (Per 1000),NANJANGUD,Coconut,Average,Basic NN
+Other,Coconut (Per 1000),PANDAVAPURA,Coconut,Average,Ashok5.1.StructTSv1
+Other,Coconut (Per 1000),PUTTUR,Grade- II,Average,Ashok5.1.StructTSv1
+Other,Coconut (Per 1000),RAMANAGARA,Coconut,Average,Ashok3.1.BaggedModelv1
+Other,Coconut (Per 1000),SANTHESARGUR,Coconut,Average,Jasma5.1.BaggedModelv1
+Other,Coconut (Per 1000),SIRA,Medium,Average,Jasma1.2.ETSv2
+Other,Coconut (Per 1000),TARIKERE,Coconut,Average,Ashok2.1.ETSv1
+Other,Coconut (Per 1000),TUMAKURU,Coconut,Average,Ashok.BaggedETS.BaggedETSv2
+Other,Coconut (Per 1000),TUMAKURU,IISort  without Husk,Average,Jasma1.2.ETSv2
+Other,Coconut (Per 1000),UDIPI,Grade- II,Average,Jasma3.1.ARFIMAv1
+Other,Jaggery,ATHANI,PENTI,Average,Jasma1.1.ETSv1
+Other,Jaggery,BANGARPET,Unde,Average,Ashok2.2.ETSv2
+Other,Jaggery,BASAVAKALYANA,Mudde,Average,Jasma2.1BATSv1
+Other,Jaggery,BELAGAVI,Mudde,Average,Jasma1.4.ETSv4
+Other,Jaggery,BENGALURU,Mudde,Average,Ashok3.1.BaggedModelv1
+Other,Jaggery,BHADRAVATHI,Unde,Average,Jasma6.1.BaggedETSv1
+Other,Jaggery,GOKAK,PENTI,Average,Jasma1.4.ETSv4
+Other,Jaggery,GUNDLUPET,Achhu,Average,Ashok.BaggedETS.BaggedModelv1
+Other,Jaggery,KALABURAGI,Other,Average,Ashok4.1.BaggedETSv1
+Other,Jaggery,MAHALINGAPURA,PENTI,Average,Jasma5.1.BaggedModelv1
+Other,Jaggery,MYSURU,Other,Average,Jasma1.4.ETSv4
+Other,Jaggery,PANDAVAPURA,Kurikatu,Average,Jasma6.1.BaggedETSv1
+Other,Jaggery,SHIVAMOGGA,Achhu,Average,Ashok5.1.StructTSv1
+Other,Jaggery,SRIRANGAPATNA,Kurikatu,Average,Jasma6.1.BaggedETSv1
+Other,Jaggery,VIJAYAPURA,Achhu,Average,Jasma1.2.ETSv2
+Other,Tender Coconut,C.R.NAGAR,Tender Coconut,Average,Ashok5.1.StructTSv1
+Other,Tender Coconut,C.R.PATNA,Tender Coconut,Average,Ashok5.1.StructTSv1
+Other,Tender Coconut,K.R.PET,Tender Coconut,Average,Jasma1.2.ETSv2
+Other,Tender Coconut,MADDUR,Tender Coconut,Average,Jasma2.1BATSv1
+Other,Tender Coconut,MUDIGERE,Tender Coconut,Average,Ashok2.1.ETSv1
+Other,Tender Coconut,PANDAVAPURA,Tender Coconut,Average,Ashok5.1.StructTSv1
+Other,Tender Coconut,T.NARSIPUR,Tender Coconut,Average,Basic NN
+Pulses,Alasande Gram,BALLARI,Alasande Gram,Average,Jasma1.3.ETSv3
+Pulses,Alasande Gram,BENGALURU,Alasande Gram,Average,Ashok2.2.ETSv2
+Pulses,Alasande Gram,DHARWAR,Alasande Gram,Average,Jasma1.2.ETSv2
+Pulses,Alasande Gram,GUNDLUPET,Alasande Gram,Average,Ashok1.1BATSv1
+Pulses,Alasande Gram,HUBBALLI,Alasande Gram,Average,Jasma1.4.ETSv4
+Pulses,Alasande Gram,LAXMESHWAR,Alasande Gram,Average,Ashok1.4ETSv4
+Pulses,Arhar,GADAG,Tur (Whole) Arhar,Average,Ashok5.1.StructTSv1
+Pulses,Avare,BENGALURU,Avare (Whole),Average,Jasma3.1.ARFIMAv1
+Pulses,Avare,MYSURU,Avare (Whole),Average,Ashok.BaggedETS.BaggedETSv2
+Pulses,Avaredal,BENGALURU,Avare Dal,Average,Ashok1.1BATSv1
+Pulses,Bengal Gramdal,BENGALURU,Bengal Gram Dal,Average,Ashok2.2.ETSv2
+Pulses,Bengal Gramdal,MYSURU,Bengal Gram Dal,Average,Ashok.BaggedETS.BaggedETSv2
+Pulses,Bengal Gramdal,SHIVAMOGGA,Bengal Gram Dal,Average,Ashok5.1.StructTSv1
+Pulses,Bengalgram,BALLARI,Average(Whole),Average,Jasma1.2.ETSv2
+Pulses,Bengalgram,BASAVAKALYANA,Average(Whole),Average,Jasma1.2.ETSv2
+Pulses,Bengalgram,BENGALURU,Average(Whole),Average,Ashok2.1.ETSv1
+Pulses,Bengalgram,BIDAR,Average(Whole),Average,Jasma1.1.ETSv1
+Pulses,Bengalgram,CHITRADURGA,Average(Whole),Average,Jasma1.1.ETSv1
+Pulses,Bengalgram,DHARWAR,Jawari/Local,Average,Ashok5.1.StructTSv1
+Pulses,Bengalgram,GADAG,Average(Whole),Average,Jasma1.2.ETSv2
+Pulses,Bengalgram,HUBBALLI,Jawari/Local,Average,Jasma1.1.ETSv1
+Pulses,Bengalgram,KALABURAGI,Average(Whole),Average,Ashok1.1BATSv1
+Pulses,Bengalgram,LAXMESHWAR,Jawari/Local,Average,Ashok5.1.StructTSv1
+Pulses,Bengalgram,LINGASARGUR,Average(Whole),Average,Ashok5.1.StructTSv1
+Pulses,Bengalgram,MYSURU,Average(Whole),Average,Ashok1.4ETSv4
+Pulses,Bengalgram,RAICHUR,Jawari/Local,Average,Jasma1.2.ETSv2
+Pulses,Bengalgram,RONA,Average(Whole),Average,Ashok5.1.StructTSv1
+Pulses,Bengalgram,SEDAM,Average(Whole),Average,Jasma1.1.ETSv1
+Pulses,Bengalgram,SHIVAMOGGA,Jawari/Local,Average,Ashok4.1.BaggedETSv1
+Pulses,Bengalgram,SINDHANUR,Average(Whole),Average,Ashok5.1.StructTSv1
+Pulses,Bengalgram,VIJAYAPURA,Average(Whole),Average,Jasma1.1.ETSv1
+Pulses,Bengalgram,YADGIR,Average(Whole),Average,Jasma6.1.BaggedETSv1
+Pulses,Black Gramdal,BENGALURU,Black Gram Dal,Average,Jasma3.1.ARFIMAv1
+Pulses,Black Gramdal,MYSURU,Black Gram Dal,Average,Ashok5.1.StructTSv1
+Pulses,Black Gramdal,SHIVAMOGGA,Black Gram Dal,Average,Jasma1.1.ETSv1
+Pulses,Blackgram,BASAVAKALYANA,Black Gram (Whole),Average,Ashok5.1.StructTSv1
+Pulses,Blackgram,BENGALURU,Black Gram (Whole),Average,Ashok1.1BATSv1
+Pulses,Blackgram,BIDAR,Black Gram (Whole),Average,Ashok3.1ARFIMAV1
+Pulses,Blackgram,GADAG,Black Gram (Whole),Average,Jasma1.4.ETSv4
+Pulses,Blackgram,HUBBALLI,Black Gram (Whole),Average,Ashok5.1.StructTSv1
+Pulses,Blackgram,KALABURAGI,Black Gram (Whole),Average,Ashok1.1BATSv1
+Pulses,Blackgram,KOPPAL,Black Gram (Whole),Average,Jasma1.2.ETSv2
+Pulses,Blackgram,MYSURU,Black Gram (Whole),Average,Jasma3.1.ARFIMAv1
+Pulses,Chennangidal,BENGALURU,Chennagidal,Average,Jasma1.4.ETSv4
+Pulses,Cowpea,GADAG,Cowpea (Whole),Average,Jasma1.4.ETSv4
+Pulses,Cowpea,KOPPAL,Cowpea (Whole),Average,Ashok2.2.ETSv2
+Pulses,Cowpea,KUSTAGI,Cowpea (Whole),Average,Jasma1.2.ETSv2
+Pulses,Cowpea,MYSURU,Cowpea (Whole),Average,Ashok5.1.StructTSv1
+Pulses,Green Gramdal,BENGALURU,Green Gram Dal,Average,Jasma1.4.ETSv4
+Pulses,Green Gramdal,MYSURU,Green Gram Dal,Average,Jasma1.4.ETSv4
+Pulses,Green Gramdal,SHIVAMOGGA,Green Gram Dal,Average,Ashok2.2.ETSv2
+Pulses,Green Peas,BENGALURU,Green Peas,Average,Ashok5.1.StructTSv1
+Pulses,Green Peas,SHIVAMOGGA,Green Peas,Average,Jasma1.2.ETSv2
+Pulses,Greengram,BASAVAKALYANA,Green Gram (Whole),Average,Jasma3.1.ARFIMAv1
+Pulses,Greengram,BENGALURU,Green Gram (Whole),Average,Jasma1.2.ETSv2
+Pulses,Greengram,BIDAR,Green Gram (Whole),Average,Jasma3.1.ARFIMAv1
+Pulses,Greengram,DHARWAR,Green Gram (Whole),Average,Jasma3.1.ARFIMAv1
+Pulses,Greengram,GADAG,Green Gram (Whole),Average,Jasma1.4.ETSv4
+Pulses,Greengram,HUBBALLI,Green Gram (Whole),Average,Jasma1.4.ETSv4
+Pulses,Greengram,KALABURAGI,Green Gram (Whole),Average,Jasma1.3.ETSv3
+Pulses,Greengram,LAXMESHWAR,Green Gram (Whole),Average,Ashok3.1ARFIMAV1
+Pulses,Greengram,MYSURU,Green Gram (Whole),Average,Jasma3.1.ARFIMAv1
+Pulses,Greengram,SHIVAMOGGA,Green Gram (Whole),Average,Ashok2.2.ETSv2
+Pulses,Greengram,YADGIR,Green Gram (Whole),Average,Ashok.NNFor
+Pulses,Horse Gram,BALLARI,Horse gram (Whole),Average,Ashok2.2.ETSv2
+Pulses,Horse Gram,BENGALURU,Horse gram (Whole),Average,Ashok3.1.BaggedModelv1
+Pulses,Horse Gram,GADAG,Horse gram (Whole),Average,Jasma1.2.ETSv2
+Pulses,Horse Gram,GUNDLUPET,Horse gram (Whole),Average,Jasma1.2.ETSv2
+Pulses,Horse Gram,KOPPAL,Horse gram (Whole),Average,Jasma1.2.ETSv2
+Pulses,Horse Gram,LAXMESHWAR,Horse gram (Whole),Average,Ashok5.1.StructTSv1
+Pulses,Horse Gram,MYSURU,Horse gram (Whole),Average,Jasma1.1.ETSv1
+Pulses,Horse Gram,TUMAKURU,Horse gram (Whole),Average,Jasma1.2.ETSv2
+Pulses,Moath,BENGALURU,Moath (W),Average,Ashok3.1.BaggedModelv1
+Pulses,Tur,BALLARI,Tur,Average,Jasma3.1.ARFIMAv1
+Pulses,Tur,BASAVAKALYANA,Red,Average,Jasma1.1.ETSv1
+Pulses,Tur,BIDAR,Tur,Average,Ashok1.1BATSv1
+Pulses,Tur,CHITTAPURA,Red,Average,Ashok1.1BATSv1
+Pulses,Tur,HUMNABAD,Tur,Average,Jasma1.3.ETSv3
+Pulses,Tur,KALABURAGI,Tur,Average,Ashok1.1BATSv1
+Pulses,Tur,KOPPAL,Tur,Average,Ashok.BaggedETS.BaggedETSv2
+Pulses,Tur,LAXMESHWAR,Tur,Average,Jasma3.1.ARFIMAv1
+Pulses,Tur,LINGASARGUR,Tur,Average,Ashok1.4ETSv4
+Pulses,Tur,RAICHUR,Red,Average,Ashok1.1BATSv1
+Pulses,Tur,RAICHUR,White,Average,Ashok1.1BATSv1
+Pulses,Tur,RONA,Tur,Average,Ashok5.1.StructTSv1
+Pulses,Tur,SEDAM,Tur,Average,Ashok.BaggedETS.BaggedModelv1
+Pulses,Tur,SHORAPUR,Tur,Average,Jasma3.1.ARFIMAv1
+Pulses,Tur,SINDAGI,Tur,Average,Jasma3.1.ARFIMAv1
+Pulses,Tur,VIJAYAPURA,Tur,Average,Jasma1.1.ETSv1
+Pulses,Tur,YADGIR,Red,Average,Ashok4.1.BaggedETSv1
+Pulses,Tur,YADGIR,White,Average,Ashok1.1BATSv1
+Pulses,Tur Dal,BANGARPET,Tur Dal,Average,Jasma1.1.ETSv1
+Pulses,Tur Dal,BENGALURU,Tur Dal,Average,Jasma1.1.ETSv1
+Pulses,Tur Dal,MYSURU,Tur Dal,Average,Ashok5.1.StructTSv1
+Pulses,Tur Dal,SHIVAMOGGA,Tur Dal,Average,Ashok2.2.ETSv2
+Spices,Chilly Red,SHIVAMOGGA,Other,Average,Jasma1.2.ETSv2
+Spices,Coriander Seed,BENGALURU,Coriander Seed,Average,Jasma5.1.BaggedModelv1
+Spices,Coriander Seed,LAXMESHWAR,Coriander Seed,Average,Jasma3.1.ARFIMAv1
+Spices,Coriander Seed,MYSURU,Coriander Seed,Average,Ashok.NNFor
+Spices,Coriander Seed,SHIVAMOGGA,Coriander Seed,Average,Ashok5.1.StructTSv1
+Spices,Dry Chillies,BENGALURU,Byadgi,Average,Ashok1.4ETSv4
+Spices,Dry Chillies,BENGALURU,Guntur,Average,Ashok.BaggedETS.BaggedETSv2
+Spices,Dry Chillies,BENGALURU,Mankattu,Average,Jasma6.1.BaggedETSv1
+Spices,Dry Chillies,BYADGI,Dabbi,Average,Ashok3.1ARFIMAV1
+Spices,Dry Chillies,BYADGI,Guntur,Average,Ashok5.1.StructTSv1
+Spices,Dry Chillies,BYADGI,Kaddi,Average,Ashok5.1.StructTSv1
+Spices,Dry Chillies,HUBBALLI,Kaddi,Average,Ashok1.1BATSv1
+Spices,Dry Chillies,MANGALURU,Other,Average,Ashok5.1.StructTSv1
+Spices,Dry Chillies,MYSURU,Local,Average,Ashok2.2.ETSv2
+Spices,Dry Chillies,SINDHANUR,Local,Average,Jasma1.4.ETSv4
+Spices,Garlic,BENGALURU,Garlic,Average,Jasma3.1.ARFIMAv1
+Spices,Garlic,HASSAN,Garlic,Average,Jasma1.2.ETSv2
+Spices,Garlic,MYSURU,Other,Average,Ashok4.1.BaggedETSv1
+Spices,Methi Seeds,BENGALURU,Methiseeds,Average,Ashok2.2.ETSv2
+Spices,Pepper,CHIKKAMAGALURU,Other,Average,Ashok.NNFor
+Spices,Pepper,GONIKOPPAL,Black Pepper,Average,Ashok1.1BATSv1
+Spices,Pepper,MANGALURU,Black Pepper,Average,Ashok5.1.StructTSv1
+Spices,Pepper,MUDIGERE,Other,Average,Ashok3.1ARFIMAV1
+Spices,Pepper,SAKLESHPUR,Black Pepper,Average,Ashok5.1.StructTSv1
+Spices,Pepper,SIDDAPURA,Black Pepper,Average,Jasma3.1.ARFIMAv1
+Spices,Pepper,SIRSI,Other,Average,Jasma3.1.ARFIMAv1
+Spices,Pepper,SOMWARPET,Black Pepper,Average,Jasma3.1.ARFIMAv1
+Spices,Pepper,YELLAPURA,Other,Average,Ashok.BaggedETS.BaggedETSv2
+Spices,Turmeric,BENGALURU,Turmeric Stick,Average,Ashok.BaggedETS.BaggedModelv1
+Spices,Turmeric,C.R.NAGAR,Turmeric,Average,Jasma1.2.ETSv2
+Spices,Turmeric,GUNDLUPET,Local,Average,Jasma1.1.ETSv1
+Vegetables,Alasandikai,BINNY MILL (F&V),Alasandikai,Average,Ashok5.1.StructTSv1
+Vegetables,Ash Gourd,MYSURU,Ashgourd,Average,Jasma2.1BATSv1
+Vegetables,Banana Green,BINNY MILL (F&V),Banana - Green (Balekai),Average,Jasma1.3.ETSv3
+Vegetables,Banana Green,DODDABALLAPUR,Banana - Green (Balekai),Average,Ashok.BaggedETS.BaggedModelv1
+Vegetables,Beans,BAGEPALLI,Beans (Whole),Average,Ashok2.2.ETSv2
+Vegetables,Beans,BANGARPET,Beans (Whole),Average,Jasma6.1.BaggedETSv1
+Vegetables,Beans,BINNY MILL (F&V),Beans (Whole),Average,Jasma1.2.ETSv2
+Vegetables,Beans,CHICKBALLAPUR,Beans (Whole),Average,Jasma1.3.ETSv3
+Vegetables,Beans,CHIKKAMAGALURU,Beans (Whole),Average,Ashok2.2.ETSv2
+Vegetables,Beans,DODDABALLAPUR,Beans (Whole),Average,Ashok1.1BATSv1
+Vegetables,Beans,HASSAN,Beans (Whole),Average,Ashok.NNFor
+Vegetables,Beans,KOLAR,Beans (Whole),Average,Ashok5.1.StructTSv1
+Vegetables,Beans,MALUR,Beans (Whole),Average,Jasma1.4.ETSv4
+Vegetables,Beans,MYSURU,Beans (Whole),Average,Ashok5.1.StructTSv1
+Vegetables,Beans,RAMANAGARA,Beans (Whole),Average,Ashok1.1BATSv1
+Vegetables,Beetroot,BANGARPET,Beetroot,Average,Jasma1.4.ETSv4
+Vegetables,Beetroot,BINNY MILL (F&V),Beetroot,Average,Jasma1.2.ETSv2
+Vegetables,Beetroot,CHICKBALLAPUR,Beetroot,Average,Jasma2.1BATSv1
+Vegetables,Beetroot,CHIKKAMAGALURU,Beetroot,Average,Jasma1.2.ETSv2
+Vegetables,Beetroot,DODDABALLAPUR,Beetroot,Average,Ashok2.1.ETSv1
+Vegetables,Beetroot,KOLAR,Beetroot,Average,Jasma1.2.ETSv2
+Vegetables,Beetroot,MYSURU,Beetroot,Average,Jasma3.1.ARFIMAv1
+Vegetables,Beetroot,RAMANAGARA,Beetroot,Average,Jasma1.4.ETSv4
+Vegetables,Bitter Gourd,BINNY MILL (F&V),Bitter Gourd,Average,Jasma1.2.ETSv2
+Vegetables,Bitter Gourd,CHICKBALLAPUR,Bitter Gourd,Average,Jasma1.2.ETSv2
+Vegetables,Bitter Gourd,DODDABALLAPUR,Bitter Gourd,Average,Ashok5.1.StructTSv1
+Vegetables,Bitter Gourd,MYSURU,Bitter Gourd,Average,Ashok3.1ARFIMAV1
+Vegetables,Bitter Gourd,RAMANAGARA,Bitter Gourd,Average,Ashok5.1.StructTSv1
+Vegetables,Bottle Gourd,BINNY MILL (F&V),Bottle Gourd,Average,Jasma2.1BATSv1
+Vegetables,Bottle Gourd,CHICKBALLAPUR,Bottle Gourd,Average,Ashok2.1.ETSv1
+Vegetables,Bottle Gourd,MYSURU,Bottle Gourd,Average,Jasma1.2.ETSv2
+Vegetables,Brinjal,BAGEPALLI,Other,Average,Ashok1.1BATSv1
+Vegetables,Brinjal,BANGARPET,Brinjal,Average,Jasma1.1.ETSv1
+Vegetables,Brinjal,BINNY MILL (F&V),Brinjal,Average,Jasma3.1.ARFIMAv1
+Vegetables,Brinjal,CHANNAPATNA,Brinjal,Average,Jasma1.4.ETSv4
+Vegetables,Brinjal,CHICKBALLAPUR,Brinjal,Average,Jasma1.3.ETSv3
+Vegetables,Brinjal,CHIKKAMAGALURU,Other,Average,Ashok1.1BATSv1
+Vegetables,Brinjal,DODDABALLAPUR,Brinjal,Average,Jasma1.2.ETSv2
+Vegetables,Brinjal,MYSURU,Brinjal,Average,Jasma1.2.ETSv2
+Vegetables,Brinjal,MYSURU,Round,Average,Jasma1.4.ETSv4
+Vegetables,Brinjal,RAMANAGARA,Brinjal,Average,Ashok1.1BATSv1
+Vegetables,Bunch Beans,BINNY MILL (F&V),Bunch Beans,Average,Ashok5.1.StructTSv1
+Vegetables,Bunch Beans,RAMANAGARA,Bunch Beans,Average,Ashok.BaggedETS.BaggedETSv2
+Vegetables,Cabbage,BAGEPALLI,Cabbage,Average,Jasma1.3.ETSv3
+Vegetables,Cabbage,BANGARPET,Cabbage,Average,Jasma1.2.ETSv2
+Vegetables,Cabbage,BINNY MILL (F&V),Cabbage,Average,Jasma3.1.ARFIMAv1
+Vegetables,Cabbage,CHICKBALLAPUR,Cabbage,Average,Jasma1.2.ETSv2
+Vegetables,Cabbage,CHIKKAMAGALURU,Cabbage,Average,Ashok2.1.ETSv1
+Vegetables,Cabbage,HASSAN,Cabbage,Average,Jasma3.1.ARFIMAv1
+Vegetables,Cabbage,KOLAR,Cabbage,Average,Ashok3.1ARFIMAV1
+Vegetables,Cabbage,MALUR,Cabbage,Average,Ashok.NNFor
+Vegetables,Cabbage,MYSURU,Cabbage,Average,Ashok1.1BATSv1
+Vegetables,Cabbage,RAMANAGARA,Cabbage,Average,Jasma6.1.BaggedETSv1
+Vegetables,Capsicum,BINNY MILL (F&V),Capsicum,Average,Jasma5.1.BaggedModelv1
+Vegetables,Capsicum,CHICKBALLAPUR,Capsicum,Average,Ashok1.1BATSv1
+Vegetables,Capsicum,KOLAR,Capsicum,Average,Jasma1.2.ETSv2
+Vegetables,Capsicum,MYSURU,Capsicum,Average,Jasma3.1.ARFIMAv1
+Vegetables,Carrot,BAGEPALLI,Carrot,Average,Basic NN
+Vegetables,Carrot,BANGARPET,Carrot,Average,Ashok5.1.StructTSv1
+Vegetables,Carrot,BINNY MILL (F&V),Carrot,Average,Ashok5.1.StructTSv1
+Vegetables,Carrot,CHICKBALLAPUR,Carrot,Average,Ashok5.1.StructTSv1
+Vegetables,Carrot,CHIKKAMAGALURU,Others,Average,Ashok.NNFor
+Vegetables,Carrot,DODDABALLAPUR,Others,Average,Ashok1.1BATSv1
+Vegetables,Carrot,HASSAN,Carrot,Average,Ashok5.1.StructTSv1
+Vegetables,Carrot,KOLAR,Carrot,Average,Jasma1.2.ETSv2
+Vegetables,Carrot,MYSURU,Carrot,Average,Ashok2.2.ETSv2
+Vegetables,Carrot,RAMANAGARA,Carrot,Average,Jasma1.3.ETSv3
+Vegetables,Cauliflower,BINNY MILL (F&V),Cauliflower,Average,Ashok3.1.BaggedModelv1
+Vegetables,Cauliflower,CHICKBALLAPUR,Cauliflower,Average,Ashok2.2.ETSv2
+Vegetables,Cauliflower,CHIKKAMAGALURU,Local,Average,Jasma1.3.ETSv3
+Vegetables,Cauliflower,DODDABALLAPUR,Cauliflower,Average,Jasma1.2.ETSv2
+Vegetables,Cauliflower,KOLAR,Local,Average,Ashok3.1ARFIMAV1
+Vegetables,Cauliflower,MYSURU,Local,Average,Ashok1.4ETSv4
+Vegetables,Chapparada Avare,BINNY MILL (F&V),Chapparada Avarekai,Average,Jasma1.2.ETSv2
+Vegetables,Chapparada Avare,KOLAR,Chapparada Avarekai,Average,Ashok.BaggedETS.BaggedETSv2
+Vegetables,Chilly Capsicum,BAGEPALLI,Chilly Capsicum,Average,Ashok2.2.ETSv2
+Vegetables,Chilly Capsicum,CHICKBALLAPUR,Chilly Capsicum,Average,Jasma1.1.ETSv1
+Vegetables,Chilly Capsicum,KOLAR,Chilly Capsicum,Average,Jasma1.2.ETSv2
+Vegetables,Chilly Capsicum,MYSURU,Chilly Capsicum,Average,Jasma1.2.ETSv2
+Vegetables,Coriander,GADAG,Local,Average,Jasma3.1.ARFIMAv1
+Vegetables,Coriander,TUMAKURU,Local,Average,Jasma1.2.ETSv2
+Vegetables,Cucumbar,BINNY MILL (F&V),Cucumbar,Average,Jasma1.3.ETSv3
+Vegetables,Cucumbar,CHANNAPATNA,Cucumbar,Average,Ashok1.4ETSv4
+Vegetables,Cucumbar,CHICKBALLAPUR,Cucumbar,Average,Ashok4.1.BaggedETSv1
+Vegetables,Cucumbar,CHIKKAMAGALURU,Cucumbar,Average,Ashok2.1.ETSv1
+Vegetables,Cucumbar,DODDABALLAPUR,Cucumbar,Average,Ashok1.1BATSv1
+Vegetables,Cucumbar,HASSAN,Cucumbar,Average,Ashok5.1.StructTSv1
+Vegetables,Cucumbar,K.R.PET,Cucumbar,Average,Ashok1.4ETSv4
+Vegetables,Cucumbar,KOLAR,Cucumbar,Average,Ashok1.1BATSv1
+Vegetables,Cucumbar,MYSURU,Cucumbar,Average,Jasma1.3.ETSv3
+Vegetables,Cucumbar,RAMANAGARA,Cucumbar,Average,Jasma1.2.ETSv2
+Vegetables,Drum Stick,BINNY MILL (F&V),Drumstick,Average,Jasma3.1.ARFIMAv1
+Vegetables,Drum Stick,MYSURU,Drumstick,Average,Ashok3.1ARFIMAV1
+Vegetables,Green Avare (W),BINNY MILL (F&V),Green Avare (W),Average,Ashok5.1.StructTSv1
+Vegetables,Green Avare (W),RAMANAGARA,Green Avare (W),Average,Jasma2.1BATSv1
+Vegetables,Green Chilly,BAGEPALLI,Green Chilly,Average,Ashok1.4ETSv4
+Vegetables,Green Chilly,BELUR,Green Chilly,Average,Jasma1.3.ETSv3
+Vegetables,Green Chilly,BINNY MILL (F&V),Green Chilly,Average,Ashok2.2.ETSv2
+Vegetables,Green Chilly,CHANNAPATNA,Green Chilly,Average,Ashok1.1BATSv1
+Vegetables,Green Chilly,CHICKBALLAPUR,Green Chilly,Average,Jasma1.2.ETSv2
+Vegetables,Green Chilly,CHIKKAMAGALURU,Green Chilly,Average,Jasma1.2.ETSv2
+Vegetables,Green Chilly,DAVANAGERE,Green Chilly,Average,Jasma1.2.ETSv2
+Vegetables,Green Chilly,DODDABALLAPUR,Green Chilly,Average,Ashok3.1.BaggedModelv1
+Vegetables,Green Chilly,HASSAN,Green Chilly,Average,Jasma1.1.ETSv1
+Vegetables,Green Chilly,KOLAR,Green Chilly,Average,Jasma1.3.ETSv3
+Vegetables,Green Chilly,MYSURU,Green Chilly,Average,Jasma1.2.ETSv2
+Vegetables,Green Chilly,RAMANAGARA,Green Chilly,Average,Jasma1.3.ETSv3
+Vegetables,Green Ginger,BELUR,Green Ginger,Average,Ashok3.1ARFIMAV1
+Vegetables,Green Ginger,BENGALURU,Green Ginger,Average,Ashok2.2.ETSv2
+Vegetables,Green Ginger,BINNY MILL (F&V),Green Ginger,Average,Jasma1.2.ETSv2
+Vegetables,Green Ginger,GONIKOPPAL,Green Ginger,Average,Ashok4.1.BaggedETSv1
+Vegetables,Green Ginger,HASSAN,Green Ginger,Average,Ashok.BaggedETS.BaggedETSv2
+Vegetables,Green Ginger,HIREKERUR,Green Ginger,Average,Jasma1.1.ETSv1
+Vegetables,Green Ginger,MUDIGERE,Green Ginger,Average,Ashok2.2.ETSv2
+Vegetables,Green Ginger,MYSURU,Green Ginger,Average,Jasma1.2.ETSv2
+Vegetables,Green Ginger,NANJANGUD,Green Ginger,Average,Jasma6.1.BaggedETSv1
+Vegetables,Green Ginger,PERIYAPATNA,Green Ginger,Average,Ashok5.1.StructTSv1
+Vegetables,Green Ginger,RAMANAGARA,Green Ginger,Average,Jasma6.1.BaggedETSv1
+Vegetables,Green Ginger,SANTHESARGUR,Green Ginger,Average,Ashok1.4ETSv4
+Vegetables,Green Ginger,SOMWARPET,Green Ginger,Average,Ashok1.4ETSv4
+Vegetables,Green Ginger,SRIRANGAPATNA,Green Ginger,Average,Jasma1.1.ETSv1
+Vegetables,Green Ginger,TARIKERE,Green Ginger,Average,Ashok5.1.StructTSv1
+Vegetables,Knool Khol,BINNY MILL (F&V),Knool Khol,Average,Jasma1.2.ETSv2
+Vegetables,Knool Khol,CHICKBALLAPUR,Knool Khol,Average,Ashok5.1.StructTSv1
+Vegetables,Knool Khol,CHIKKAMAGALURU,Knool Khol,Average,Jasma1.4.ETSv4
+Vegetables,Knool Khol,DODDABALLAPUR,Knool Khol,Average,Jasma1.4.ETSv4
+Vegetables,Knool Khol,KOLAR,Knool Khol,Average,Jasma3.1.ARFIMAv1
+Vegetables,Knool Khol,RAMANAGARA,Knool Khol,Average,Jasma1.2.ETSv2
+Vegetables,Ladies Finger,BINNY MILL (F&V),Ladies Finger,Average,Jasma1.3.ETSv3
+Vegetables,Ladies Finger,CHANNAPATNA,Ladies Finger,Average,Ashok5.1.StructTSv1
+Vegetables,Ladies Finger,CHIKKAMAGALURU,Ladies Finger,Average,Ashok3.1ARFIMAV1
+Vegetables,Ladies Finger,DODDABALLAPUR,Ladies Finger,Average,Jasma1.4.ETSv4
+Vegetables,Ladies Finger,MYSURU,Ladies Finger,Average,Ashok2.1.ETSv1
+Vegetables,Ladies Finger,RAMANAGARA,Ladies Finger,Average,Ashok5.1.StructTSv1
+Vegetables,Lime (Lemon),BINNY MILL (F&V),Lime (Lemon),Average,Ashok5.1.StructTSv1
+Vegetables,Lime (Lemon),VIJAYAPURA,Lime (Lemon),Average,Ashok5.1.StructTSv1
+Vegetables,Onion,BELAGAVI,Pusa-Red,Average,Jasma1.2.ETSv2
+Vegetables,Onion,BELAGAVI,White,Average,Ashok.BaggedETS.BaggedModelv1
+Vegetables,Onion,BENGALURU,Local,Average,Ashok1.1BATSv1
+Vegetables,Onion,BENGALURU,Puna,Average,Ashok1.1BATSv1
+Vegetables,Onion,CHICKBALLAPUR,Bellary Red,Average,Ashok3.1.BaggedModelv1
+Vegetables,Onion,CHIKKAMAGALURU,Other,Average,Jasma5.1.BaggedModelv1
+Vegetables,Onion,DAVANAGERE,Onion,Average,Jasma3.1.ARFIMAv1
+Vegetables,Onion,GADAG,Onion,Average,Jasma1.1.ETSv1
+Vegetables,Onion,HASSAN,Other,Average,Jasma1.2.ETSv2
+Vegetables,Onion,HUBBALLI,Local,Average,Jasma1.2.ETSv2
+Vegetables,Onion,HUBBALLI,Puna,Average,Jasma2.1BATSv1
+Vegetables,Onion,HUBBALLI,Telagi,Average,Jasma1.4.ETSv4
+Vegetables,Onion,MYSURU,Other,Average,Ashok3.1.BaggedModelv1
+Vegetables,Onion,RAICHUR,Onion,Average,Jasma1.4.ETSv4
+Vegetables,Onion,TUMAKURU,Other,Average,Ashok.BaggedETS.BaggedETSv2
+Vegetables,Onion,VIJAYAPURA,Onion,Average,Jasma1.2.ETSv2
+Vegetables,Peas Wet,BINNY MILL (F&V),Peas Wet,Average,Jasma3.1.ARFIMAv1
+Vegetables,Potato,BELAGAVI,Local,Average,Jasma1.2.ETSv2
+Vegetables,Potato,BENGALURU,Local,Average,Ashok1.1BATSv1
+Vegetables,Potato,BENGALURU,Potato,Average,Ashok1.1BATSv1
+Vegetables,Potato,CHICKBALLAPUR,Local,Average,Ashok3.1ARFIMAV1
+Vegetables,Potato,CHIKKAMAGALURU,Other,Average,Ashok1.4ETSv4
+Vegetables,Potato,HASSAN,Potato,Average,Ashok5.1.StructTSv1
+Vegetables,Potato,HOSAPETE,Potato,Average,Ashok3.1ARFIMAV1
+Vegetables,Potato,HUBBALLI,Local,Average,Jasma1.3.ETSv3
+Vegetables,Potato,HUBBALLI,Other,Average,Jasma1.3.ETSv3
+Vegetables,Potato,HUBBALLI,Potato,Average,Ashok5.1.StructTSv1
+Vegetables,Potato,MALUR,Potato,Average,Ashok2.1.ETSv1
+Vegetables,Potato,MYSURU,Potato,Average,Ashok.BaggedETS.BaggedModelv1
+Vegetables,Raddish,BANGARPET,Raddish,Average,Jasma1.2.ETSv2
+Vegetables,Raddish,BINNY MILL (F&V),Raddish,Average,Jasma2.1BATSv1
+Vegetables,Raddish,CHANNAPATNA,Raddish,Average,Jasma1.3.ETSv3
+Vegetables,Raddish,CHICKBALLAPUR,Raddish,Average,Ashok2.2.ETSv2
+Vegetables,Raddish,CHIKKAMAGALURU,Raddish,Average,Ashok2.2.ETSv2
+Vegetables,Raddish,DODDABALLAPUR,Raddish,Average,Ashok5.1.StructTSv1
+Vegetables,Raddish,KOLAR,Raddish,Average,Jasma1.2.ETSv2
+Vegetables,Raddish,RAMANAGARA,Raddish,Average,Ashok2.2.ETSv2
+Vegetables,Ridgeguard,BANGARPET,Ridgeguard,Average,Ashok2.1.ETSv1
+Vegetables,Ridgeguard,BINNY MILL (F&V),Ridgeguard,Average,Jasma1.2.ETSv2
+Vegetables,Ridgeguard,CHANNAPATNA,Ridgeguard,Average,Ashok5.1.StructTSv1
+Vegetables,Ridgeguard,CHICKBALLAPUR,Ridgeguard,Average,Jasma2.1BATSv1
+Vegetables,Ridgeguard,CHIKKAMAGALURU,Ridgeguard,Average,Jasma1.2.ETSv2
+Vegetables,Ridgeguard,DODDABALLAPUR,Ridgeguard,Average,Ashok1.4ETSv4
+Vegetables,Ridgeguard,KOLAR,Ridgeguard,Average,Ashok4.1.BaggedETSv1
+Vegetables,Ridgeguard,MYSURU,Ridgeguard,Average,Jasma2.1BATSv1
+Vegetables,Ridgeguard,RAMANAGARA,Ridgeguard,Average,Ashok2.2.ETSv2
+Vegetables,Seemebadanekai,BINNY MILL (F&V),Seemebadanekai,Average,Ashok4.1.BaggedETSv1
+Vegetables,Seemebadanekai,CHICKBALLAPUR,Seemebadanekai,Average,Jasma1.3.ETSv3
+Vegetables,Seemebadanekai,MYSURU,Seemebadanekai,Average,Jasma1.3.ETSv3
+Vegetables,Seemebadanekai,RAMANAGARA,Seemebadanekai,Average,Ashok1.1BATSv1
+Vegetables,Snakeguard,BINNY MILL (F&V),Snakeguard,Average,Jasma1.2.ETSv2
+Vegetables,Snakeguard,CHICKBALLAPUR,Snakeguard,Average,Jasma1.2.ETSv2
+Vegetables,Snakeguard,MYSURU,Snakeguard,Average,Jasma1.2.ETSv2
+Vegetables,Snakeguard,RAMANAGARA,Snakeguard,Average,Jasma1.2.ETSv2
+Vegetables,Suvarnagadde,BINNY MILL (F&V),Suvarnagadde,Average,Jasma1.2.ETSv2
+Vegetables,Suvarnagadde,MYSURU,Suvarnagadde,Average,Ashok3.1ARFIMAV1
+Vegetables,Sweet Potato,BELAGAVI,Sweet Potato,Average,Jasma1.2.ETSv2
+Vegetables,Sweet Potato,BINNY MILL (F&V),Sweet Potato,Average,Jasma1.3.ETSv3
+Vegetables,Sweet Potato,SOMWARPET,Sweet Potato,Average,Ashok3.1ARFIMAV1
+Vegetables,Sweet Pumpkin,BINNY MILL (F&V),Sweet Pumpkin,Average,Jasma1.4.ETSv4
+Vegetables,Sweet Pumpkin,K.R.PET,Sweet Pumpkin,Average,Ashok1.4ETSv4
+Vegetables,Sweet Pumpkin,MYSURU,Sweet Pumpkin,Average,Jasma1.2.ETSv2
+Vegetables,Thondekai,BINNY MILL (F&V),Thondekai,Average,Jasma3.1.ARFIMAv1
+Vegetables,Thondekai,CHICKBALLAPUR,Thondekai,Average,Jasma1.3.ETSv3
+Vegetables,Thondekai,MYSURU,Thondekai,Average,Ashok2.2.ETSv2
+Vegetables,Tomato,BAGEPALLI,Tomato,Average,Ashok1.1BATSv1
+Vegetables,Tomato,BANGARPET,Tomato,Average,Jasma2.1BATSv1
+Vegetables,Tomato,BINNY MILL (F&V),Tomato,Average,Jasma1.2.ETSv2
+Vegetables,Tomato,CHANNAPATNA,Tomato,Average,Jasma1.1.ETSv1
+Vegetables,Tomato,CHICKBALLAPUR,Tomato,Average,Jasma1.1.ETSv1
+Vegetables,Tomato,CHIKKAMAGALURU,Tomato,Average,Jasma6.1.BaggedETSv1
+Vegetables,Tomato,CHINTAMANI,Tomato,Average,Ashok1.1BATSv1
+Vegetables,Tomato,DAVANAGERE,Tomato,Average,Jasma1.2.ETSv2
+Vegetables,Tomato,DODDABALLAPUR,Tomato,Average,Ashok.NNFor
+Vegetables,Tomato,GUNDLUPET,Tomato,Average,Ashok2.1.ETSv1
+Vegetables,Tomato,HASSAN,Tomato,Average,Jasma1.2.ETSv2
+Vegetables,Tomato,KOLAR,Hybrid,Average,Jasma1.2.ETSv2
+Vegetables,Tomato,KOLAR,Tomato,Average,Jasma3.1.ARFIMAv1
+Vegetables,Tomato,MALUR,Tomato,Average,Ashok5.1.StructTSv1
+Vegetables,Tomato,MULBAGAL,Tomato,Average,Jasma2.1BATSv1
+Vegetables,Tomato,MYSURU,Tomato,Average,Jasma1.3.ETSv3
+Vegetables,Tomato,RAMANAGARA,Tomato,Average,Ashok2.2.ETSv2
+Vegetables,Tomato,SRINIVASPUR,Tomato,Average,Ashok1.1BATSv1
+Vegetables,White Pumpkin,BINNY MILL (F&V),White Pumpkin,Average,Jasma1.4.ETSv4

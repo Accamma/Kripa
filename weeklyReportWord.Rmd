@@ -1,0 +1,536 @@
+---
+params:
+    data: NA
+title: "Karnataka Agricultural Price Commission Research Unit, Bangalore  \n Report of Arrivals and Prices until week ending `r format(Sys.Date() - wday(Sys.Date()), '%d-%m-%Y')`: `r params$data$Commodity[1]`"
+output: word_document
+always_allow_html: yes
+---
+
+```{r include = FALSE}
+
+data = params$data
+commodityname = data$Commodity[1]
+arrivalunits = data$ArrivalUnits[1]
+modalunits = data$ModalUnits[1]
+
+knitr::opts_chunk$set(fig.width=14, fig.height=6) 
+```
+
+### 1.MSP and Cost of Production
+
+```{r echo=FALSE, message=FALSE, results = 'asis'}
+library(knitr)
+library(dplyr)
+library(lubridate)
+library(plotly)
+library(grid)
+library(gtable)
+require(scales)
+
+
+data <- data.frame(data)
+
+lastmon <- function(x) x - as.numeric(x-1+4)%%7
+
+currentYear <- as.numeric(format(Sys.Date(), "%Y"))
+currentMonth <- format(Sys.Date(), "%m")
+currentDate <- format(Sys.Date(), "%d")
+lastMonday <- lastmon(Sys.Date())
+lastMondayLastYear <- lastMonday %m-% years(1)
+
+temp <- lastMonday %m+% months(1)
+nextMonth <- as.Date(paste0("01-",format(temp, "%m"),"-", format(temp, "%Y")),format="%d-%m-%Y")
+nextMonthLastYear <- nextMonth %m-% years(1)
+
+lastMondayMonth <- format(lastMonday, "%m")
+lastMondayDay <- format(lastMonday, "%d")
+originalMonthName <- months(lastMonday)
+customMonthName <- paste(month.abb[as.numeric(lastMondayMonth)],lastMondayDay)
+
+finYearEnd <- as.Date(paste0("31-03-",currentYear), format="%d-%m-%Y")
+
+if (Sys.Date() <= finYearEnd){
+  currentYear <- currentYear - 1
+}
+  
+previousYear <- currentYear - 1
+nextYear <- currentYear + 1
+
+
+startDate1 <- as.Date(paste0("01-04-", previousYear),format="%d-%m-%Y")
+midDate1 <- as.Date(lastMondayLastYear, format="%d-%m-%Y")
+endDate1 <- as.Date(paste0("31-03-",currentYear), format="%d-%m-%Y")
+
+startDate2 <- as.Date(paste0("01-04-", currentYear), format="%d-%m-%Y")
+midDate2 <- as.Date(lastMonday, format="%d-%m-%Y")
+endDate2 <- as.Date(paste0("31-03-", nextYear), format="%d-%m-%Y")
+
+firstYearText = paste0(previousYear,'-',currentYear - floor(currentYear/100)*100)
+secondYearText = paste0(currentYear,'-',nextYear - floor(nextYear/100)*100)
+  
+finYear1Data = data[(data$Date>=startDate1 & data$Date <= endDate1),]
+finYear2Data = data[(data$Date>=startDate2 & data$Date <= endDate2),]
+
+costA1FLYear1 = mean(finYear1Data$CostA1FL)
+costA1FLYear2 = mean(finYear2Data$CostA1FL)
+
+CostC21 = mean(finYear1Data$CostC2)
+CostC22 = mean(finYear2Data$CostC2)
+
+TotalC31 = mean(finYear1Data$TotalC3)
+TotalC32 = mean(finYear2Data$TotalC3)
+
+MSP1 = mean(finYear1Data$MSP)
+MSP2 = mean(finYear2Data$MSP)
+
+firstTable <- data.frame(Period = firstYearText,CostA1FL=costA1FLYear1, CostC2 = CostC21, TotalC3 = TotalC31, MSP=MSP1)
+row2 <- data.frame(Period =secondYearText ,CostA1FL=costA1FLYear2, CostC2 = CostC22, TotalC3 = TotalC32, MSP=MSP2)
+firstTable <- rbind(firstTable, row2)
+mlist <- levels(factor(data$Market))
+temp <- paste(mlist, collapse = ",")
+
+#kable(mtcars[1:5,], caption = "A Knitr Table")
+kable(firstTable) 
+
+```
+
+\newline
+\newline
+
+### II. Behaviour of Arrivals and Prices in Major Markets
+
+(`r temp`)
+
+```{r  echo=FALSE, warning=FALSE , results = 'asis'}
+#Splitting finYear1
+
+
+#Splitting finYear2
+
+finYear1Data$Month <-   months(finYear1Data$Date)
+finYear1Data$Year <- year(finYear1Data$Date)
+finYear2Data$Month <-   months(finYear2Data$Date)
+finYear2Data$Year <- year(finYear2Data$Date)
+
+var1 <- months(c(as.Date(paste0("1-1-",currentYear)),as.Date(paste0("1-2-",currentYear)),as.Date(paste0("1-3-",currentYear)),as.Date(paste0("1-4-",previousYear)),as.Date(paste0("1-5-",previousYear)),as.Date(paste0("1-6-",previousYear)),as.Date(paste0("1-7-",previousYear)),as.Date(paste0("1-8-",previousYear)),as.Date(paste0("1-9-",previousYear)),as.Date(paste0("1-10-",previousYear)),as.Date(paste0("1-11-",previousYear)),as.Date(paste0("1-12-",previousYear)))) 
+
+varDate <- c(as.Date(paste0(currentYear,"-1-1")),as.Date(paste0(currentYear,"-2-1")),as.Date(paste0(currentYear,"-3-1")),as.Date(paste0(previousYear,"-4-1")),as.Date(paste0(previousYear,"-5-1")),as.Date(paste0(previousYear,"-6-1")),as.Date(paste0(previousYear,"-7-1")),as.Date(paste0(previousYear,"-8-1")),as.Date(paste0(previousYear,"-9-1")),as.Date(paste0(previousYear,"-10-1")),as.Date(paste0(previousYear,"-11-1")),as.Date(paste0(previousYear,"-12-1")))
+
+varYear <- c(currentYear,currentYear,currentYear, previousYear,previousYear,previousYear,previousYear,previousYear,previousYear,previousYear,previousYear,previousYear)
+
+varDate2 <- c(as.Date(paste0(nextYear,"-1-1")),as.Date(paste0(nextYear,"-2-1")),as.Date(paste0(nextYear,"-3-1")),as.Date(paste0(currentYear,"-4-1")),as.Date(paste0(currentYear,"-5-1")),as.Date(paste0(currentYear,"-6-1")),as.Date(paste0(currentYear,"-7-1")),as.Date(paste0(currentYear,"-8-1")),as.Date(paste0(currentYear,"-9-1")),as.Date(paste0(currentYear,"-10-1")),as.Date(paste0(currentYear,"-11-1")),as.Date(paste0(currentYear,"-12-1")))
+
+varYear2 <- c(nextYear, nextYear, nextYear, currentYear, currentYear, currentYear, currentYear, currentYear, currentYear, currentYear, currentYear, currentYear)
+
+
+var3 <- setdiff(var1,unique(finYear1Data$Month))
+
+if (length(var3)>0){
+  for (dr in 1:length(var3)){
+    #if (var3[dr] != originalMonthName){
+  dummyRow <- data.frame(Date = varDate[dr], Month = var3[dr], Year = varYear[dr])
+  finYear1Data <- rbind.fill(finYear1Data,dummyRow)
+  #}
+  }
+}
+
+
+var3 <- setdiff(var1,unique(finYear2Data$Month))
+
+if (length(var3)>0){
+  for (dr in 1:length(var3)){
+    #if (var3[dr] != originalMonthName){
+  dummyRow <- data.frame(Date = varDate2[dr], Month = var3[dr], Year = varYear2[dr])
+  finYear2Data <- rbind.fill(finYear2Data,dummyRow)
+  #}
+  }
+}
+
+AggregatedYearMonthPriceData1Whole <- aggregate(x = finYear1Data[c("Modal")], by = finYear1Data[c("Month", "Year")], FUN = mean)
+
+finYear11Data = finYear1Data[(finYear1Data$Date>=startDate1 & finYear1Data$Date <= midDate1),]
+finYear12Data = finYear1Data[(finYear1Data$Date>=nextMonthLastYear & finYear1Data$Date <= endDate1),]
+
+finYear21Data = finYear2Data[(finYear2Data$Date>=startDate2 & finYear2Data$Date <= midDate2),]
+finYear22Data = finYear2Data[(finYear2Data$Date>=nextMonth & finYear2Data$Date <= endDate2),]
+
+
+AggregatedYearMonthArrivalData11 <- aggregate(x = finYear11Data[c("Arrival")], by = finYear11Data[c("Month", "Year")], FUN = sum)
+AggregatedYearMonthPriceData11 <- aggregate(x = finYear11Data[c("Modal")], by = finYear11Data[c("Month", "Year")], FUN = mean)
+
+AggregatedYear11Data <- merge(AggregatedYearMonthArrivalData11,AggregatedYearMonthPriceData11)
+AggregatedYear11Data$Month <- factor(AggregatedYear11Data$Month, levels=month.name)
+AggregatedYear11Data <-AggregatedYear11Data[order(AggregatedYear11Data$Year, AggregatedYear11Data$Month),] 
+
+levels(AggregatedYear11Data$Month)[levels(AggregatedYear11Data$Month) == originalMonthName] <- customMonthName
+
+AggregatedYear11DataBackup <- AggregatedYear11Data
+MidTotalRow <- nrow(AggregatedYear11DataBackup) + 1
+
+midTotal = data.frame(Month="Total/Average", Year="", Arrival=sum(AggregatedYear11Data$Arrival, na.rm = TRUE), Modal =  mean(AggregatedYear11Data$Modal))
+AggregatedYear11Data <- rbind(AggregatedYear11Data, midTotal)
+
+AggregatedYearMonthArrivalData12 <- NULL
+AggregatedYearMonthPriceData12 <- NULL
+
+if (nrow(finYear12Data) > 0) {
+AggregatedYearMonthArrivalData12 <- aggregate(x = finYear12Data[c("Arrival")], by = finYear12Data[c("Month", "Year")], FUN = sum)
+AggregatedYearMonthPriceData12 <- aggregate(x = finYear12Data[c("Modal")], by = finYear12Data[c("Month", "Year")], FUN = mean)
+}
+
+AggregatedYear12Data <- merge(AggregatedYearMonthArrivalData12,AggregatedYearMonthPriceData12)
+AggregatedYear12Data$Month <- factor(AggregatedYear12Data$Month, levels=month.name)
+
+if (nrow(AggregatedYear12Data) > 0){
+AggregatedYear12Data <-AggregatedYear12Data[order(AggregatedYear12Data$Year, AggregatedYear12Data$Month),] 
+}
+
+AggregatedYear1Data <- rbind(AggregatedYear11Data, AggregatedYear12Data)
+AggregatedYear1DataBackup <- rbind(AggregatedYear11DataBackup,AggregatedYear12Data )
+
+AggregatedYearMonthArrivalData21 <- aggregate(x = finYear21Data[c("Arrival")], by = finYear21Data[c("Month", "Year")], FUN = sum)
+AggregatedYearMonthArrivalData21 <- na.omit(AggregatedYearMonthArrivalData21)
+AggregatedYearMonthPriceData21 <- aggregate(x = finYear21Data[c("Modal")], by = finYear21Data[c("Month", "Year")], FUN = mean)
+AggregatedYearMonthPriceData21 <- na.omit(AggregatedYearMonthPriceData21)
+
+AggregatedYear21Data <- merge(AggregatedYearMonthArrivalData21,AggregatedYearMonthPriceData21)
+AggregatedYear21Data$Month <- factor(AggregatedYear21Data$Month, levels=month.name)
+AggregatedYear21Data <-AggregatedYear21Data[order(AggregatedYear21Data$Year, AggregatedYear21Data$Month),] 
+
+levels(AggregatedYear21Data$Month)[levels(AggregatedYear21Data$Month) == originalMonthName] <- customMonthName
+
+AggregatedYear21DataBackup <- AggregatedYear21Data
+MidTotalRow <- nrow(AggregatedYear21DataBackup) + 1
+
+midTotal = data.frame(Month="Total/Average", Year="", Arrival=sum(AggregatedYear21Data$Arrival, na.rm = TRUE), Modal =  mean(AggregatedYear21Data$Modal, na.rm = TRUE))
+AggregatedYear21Data <- rbind(AggregatedYear21Data, midTotal)
+
+AggregatedYearMonthArrivalData22 <- NULL
+AggregatedYearMonthPriceData22 <- NULL
+
+if (nrow(finYear22Data) > 0) {
+AggregatedYearMonthArrivalData22 <- aggregate(x = finYear22Data[c("Arrival")], by = finYear22Data[c("Month", "Year")], FUN = sum)
+AggregatedYearMonthArrivalData22 = na.omit(AggregatedYearMonthArrivalData22)
+AggregatedYearMonthPriceData22 <- aggregate(x = finYear22Data[c("Modal")], by = finYear22Data[c("Month", "Year")], FUN = mean)
+AggregatedYearMonthPriceData22 = na.omit(AggregatedYearMonthPriceData22)
+}
+
+AggregatedYear22Data <- merge(AggregatedYearMonthArrivalData22,AggregatedYearMonthPriceData22)
+AggregatedYear22Data$Month <- factor(AggregatedYear22Data$Month, levels=month.name)
+
+if (nrow(AggregatedYear22Data) > 0){
+AggregatedYear22Data <-AggregatedYear22Data[order(AggregatedYear22Data$Year, AggregatedYear22Data$Month),] 
+}
+
+AggregatedYear2Data <- rbind(AggregatedYear21Data, AggregatedYear22Data)
+AggregatedYear2DataBackup <- rbind(AggregatedYear21DataBackup,AggregatedYear22Data )
+
+secondTable <- data.frame(Period = character(13),Arrivals1 = character(13),  PercentChangeArrivals = numeric(13), Prices1 = numeric(13),  PercentChangePrice = numeric(13))
+
+TotalArrivalsLastYear = sum(finYear1Data$Arrival, na.rm = TRUE)
+ArrivalsPercentageLastYear = round((AggregatedYear1Data$Arrival/TotalArrivalsLastYear)*100, 0)
+AveragePricesLastYear = mean(round(AggregatedYearMonthPriceData1Whole$Modal, 0), na.rm = TRUE)
+
+secondTable$Period = AggregatedYear1Data$Month
+secondTable$Arrivals1 = paste0(AggregatedYear1Data$Arrival,'(',ArrivalsPercentageLastYear,')')
+
+AggregatedYear2Data = AggregatedYear2Data[,c("Month","Arrival","Modal")]
+colnames(AggregatedYear2Data) = c("Period", "Arrivals2", "Prices2")
+
+secondTable = merge(secondTable,AggregatedYear2Data, by="Period", all=TRUE)
+secondTable <- secondTable[match(AggregatedYear1Data$Month,secondTable$Period),]
+
+secondTable$PercentChangeArrivals = ifelse(is.na(secondTable$Arrivals2), NA,round(((secondTable$Arrivals2 - AggregatedYear1Data$Arrival)/AggregatedYear1Data$Arrival)*100, 0))
+
+secondTable$Prices1 = round(AggregatedYear1Data$Modal, 0)
+#secondTable$Prices2 = c(round(AggregatedYear2Data$Modal,0), rep(NA, 13 - length(AggregatedYear2Data$Modal)))
+secondTable$Prices2 <- round(secondTable$Prices2, 0)
+secondTable$PercentChangePrice = ifelse(is.na(secondTable$Prices2), NA,round(((secondTable$Prices2 - secondTable$Prices1)/secondTable$Prices1)*100, 0))
+
+
+secondTableO <- secondTable[match(AggregatedYear1DataBackup$Month, secondTable$Period),]
+
+row = data.frame(Period="Total/Average", Arrivals1=paste0(TotalArrivalsLastYear,'(100)'),Arrivals2=NA,PercentChangeArrivals = NA, Prices1=AveragePricesLastYear, Prices2=NA,PercentChangePrice=NA)
+
+secondTable <- rbind(secondTable, row)
+
+# colnames(secondTable) <- c("Months", paste0("Arrivals(",arrivalunits,"):",firstYearText," (%)"), paste0("Arrivals(",arrivalunits,"):",secondYearText), paste0("%Change"), paste0("Prices(",modalunits,"):",firstYearText), paste0("Prices(",modalunits,"):",secondYearText), paste0("%Change"))
+
+secondTable$Arrivals1 <- ifelse(secondTable$Arrivals1 == 'NA(NA)', '',secondTable$Arrivals1 )
+
+secondTable = secondTable[,c("Period", "Arrivals1", "Arrivals2", "PercentChangeArrivals", "Prices1", "Prices2", "PercentChangePrice")]
+
+colnames(secondTable) <- c("Months", paste0("Arrivals:",firstYearText," (%)"), paste0("Arrivals:",secondYearText), paste0("%Change"), paste0("Prices:",firstYearText), paste0("Prices:",secondYearText), paste0("%Change"))
+secondTable[is.na(secondTable)] <- " "
+
+rownames(secondTable) <- NULL
+
+kable(secondTable, digits = 0)
+midAggr <- round((midTotal$Arrival / TotalArrivalsLastYear)*100, 0)
+```
+\newline
+\newline
+
+*() Indicates Percentage upto `r customMonthName`
+
+Note: Arrivals is `r midAggr` percent till `r customMonthName` as compared to last year's total arrivals.
+
+\newline
+\newline
+
+### III. Comparison of Arrivals and Prices with Cost of Production:  `r firstYearText` and `r secondYearText`
+
+```{r  echo=FALSE, message=FALSE, warning=FALSE, results = 'asis'}
+
+#df <- data.frame(Period = secondTableO$Period, Arrivals1=secondTableO$Arrivals1, Arrivals2=secondTableO$Arrivals2, Prices1 = secondTableO$Prices1, Prices2 = secondTableO$Prices2, MSP1=MSP1, CostA1FL1 = costA1FLYear1,MSP2=MSP2, CostA1FL2 = costA1FLYear2)
+
+df <- data.frame(Period = secondTableO$Period, Arrivals1=AggregatedYear1DataBackup$Arrival, Arrivals2=secondTableO$Arrivals2, Prices1 = secondTableO$Prices1, Prices2 = secondTableO$Prices2, MSP1=MSP1, CostA1FL1 = costA1FLYear1,MSP2=MSP2, CostA1FL2 = costA1FLYear2)
+
+
+ df$Period <- factor(df$Period, levels = AggregatedYear1DataBackup$Month)
+ levels(df$Period)[is.na(levels(df$Period))] <- customMonthName
+
+PricesText = paste0("Prices(", modalunits,")")
+ArrivalsText = paste0("Arrivals(", arrivalunits,")")
+
+p1<- ggplot(df, aes(x=Period))
+p1 <- p1 + geom_bar(aes(y=Arrivals1,  color = "Arrivals"),fill = "#7B72B6", width=0.5, stat = "identity")+ theme_bw() %+replace% 
+    theme(legend.key=element_blank(),
+          legend.title=element_blank(),
+          legend.box="horizontal",
+          legend.text=element_text(size=14),
+          legend.position = "bottom", 
+          axis.text=element_text(size=14),
+        axis.title=element_text(color="blue", size=16),
+        plot.title = element_text(color="red", size=20, face="bold",hjust = 0.5)
+        #panel.border = element_blank()
+       # panel.grid.major = element_blank(), 
+       #panel.grid.minor = element_blank()
+        )
+p1<- p1+scale_y_continuous(labels = comma)
+p1 <- p1 + labs(title = firstYearText,
+                y = ArrivalsText,
+                x = "Months",
+                colour = "Parameter")
+
+p<- ggplot(df, aes(x=Period))
+p<- p + geom_line(aes(x=Period, y=Prices1, group=1, color="Prices"), size=1.5, stat = "identity")
+p<- p + geom_line(aes(x=Period, y=MSP1, group=1, color="MSP"), size=1.5, stat = "identity")
+p<- p + geom_line(aes(x=Period, y=CostA1FL1, group=1, color="CostA1FL"), size=1.5, stat = "identity")
+#p <- p + scale_y_continuous(sec.axis = sec_axis(~./5, name = PricesText) 
+ #                          , limits=c(0,max(df$Prices1,MSP1,costA1FLYear1)))
+#p<- p+scale_y_continuous(labels = comma)
+p <- p + ylim(0,max(df$Prices1, df$MSP1, df$CostA1FL1))
+
+p <- p + scale_colour_manual(" ", values=c("Arrivals" = "#7B72B6", "Prices" = "#FFAB43", "MSP" = "red", "CostA1FL" = "green"))+
+    theme(legend.key=element_blank(),
+          legend.title=element_blank(),
+          legend.box="horizontal",
+          legend.text=element_text(size=14),
+          legend.position = "bottom", 
+          axis.text=element_text(size=14),
+        axis.title=element_text(color="blue", size=16),
+        plot.title = element_text(color="red", size=20, face="bold",hjust = 0.5),
+          panel.background = element_rect(fill = "transparent"),
+           panel.grid.major = element_blank(), 
+       panel.grid.minor = element_blank()
+       
+    )
+p <- p + labs(title = firstYearText,
+                y = PricesText,
+                x = "Months",
+                colour = "Parameter")
+grid.newpage()
+g1 <- ggplot_gtable(ggplot_build(p1))
+g2 <- ggplot_gtable(ggplot_build(p))
+# overlap the panel of 2nd plot on that of 1st plot
+pp <- c(subset(g1$layout, grepl("panel", g1$layout$name),  select = t:r))
+g <- gtable_add_grob(g1, g2$grobs[grepl("panel", g1$layout$name)], pp$t, 
+    pp$l, pp$b, pp$l)
+
+# Function to invert labels
+hinvert_title_grob <- function(grob){
+widths <- grob$widths
+grob$widths[1] <- widths[3]
+grob$widths[3] <- widths[1]
+grob$vp[[1]]$layout$widths[1] <- widths[3]
+grob$vp[[1]]$layout$widths[3] <- widths[1]
+
+grob$children[[1]]$hjust <- 1 - grob$children[[1]]$hjust 
+grob$children[[1]]$vjust <- 1 - grob$children[[1]]$vjust 
+grob$children[[1]]$x <- unit(1, "npc") - grob$children[[1]]$x
+grob
+}
+
+ # Get the y label from g2, and invert it
+ index <- which(g2$layout$name == "ylab-l") 
+ ylab <- g2$grobs[[index]]                # Extract that grob
+ ylab <- hinvert_title_grob(ylab) 
+
+ g <- gtable_add_cols(g, g2$widths[g2$layout[index, ]$l], pos = max(pp$r))
+
+ g <-gtable_add_grob(g,ylab, t = min(pp$t), l = max(pp$r)+1,b = max(pp$b), r = max(pp$r)+1,clip = "off", name = "ylab-r")
+
+ # Get the y axis from g2, reverse the tick marks and the tick mark labels,
+ # and invert the tick mark labels
+ index <- which(g2$layout$name == "axis-l")  # Which grob
+ yaxis <- g2$grobs[[index]]                    # Extract the grob
+
+ ticks <- yaxis$children[[2]]
+ ticks$widths <- rev(ticks$widths)
+ ticks$grobs <- rev(ticks$grobs)
+
+ plot_theme <- function(p) {
+   plyr::defaults(p$theme, theme_get())
+ }
+
+ tml <- plot_theme(p1)$axis.ticks.length   # Tick mark length
+ ticks$grobs[[1]]$x <- ticks$grobs[[1]]$x - unit(1, "npc") + tml
+
+ ticks$grobs[[2]] <- hinvert_title_grob(ticks$grobs[[2]])
+ yaxis$children[[2]] <- ticks
+
+
+# Put the y axis into g, to the right of the right-most panel
+# Note: Only one column, but two y axes - one for each row of the facet_wrap plot
+ g <- gtable_add_cols(g, g2$widths[g2$layout[index, ]$l], pos = max(pp$r))
+
+ nrows = length(unique(pp$t)) # Number of rows
+ g <- gtable_add_grob(g, rep(list(yaxis), nrows),
+               t = unique(pp$t), l = max(pp$r)+1,
+               b = unique(pp$b), r = max(pp$r)+1,
+               clip = "off", name = paste0("axis-r-", 1:nrows))
+
+# Get the legends
+leg1 <- g1$grobs[[which(g1$layout$name == "guide-box")]]
+leg2 <- g2$grobs[[which(g2$layout$name == "guide-box")]]
+
+# Combine the legends
+g$grobs[[which(g$layout$name == "guide-box")]] <-
+    gtable:::cbind_gtable(leg1, leg2, "first")
+
+grid.newpage()
+grid.draw(g)
+
+```
+\newline \newline \newline
+
+```{r  echo=FALSE, message=FALSE, warning=FALSE, results = 'asis'}
+
+#df = df[1:lengthOfSecondYear-1,]
+p1<- ggplot(df, aes(x=Period))
+p1 <- p1 + geom_bar(aes(y=Arrivals2,  color = "Arrivals"),fill = "#7B72B6", width=0.5, stat = "identity")+ theme_bw() %+replace% 
+    theme(legend.key=element_blank(),
+          legend.title=element_blank(),
+          legend.box="horizontal",
+          legend.text=element_text(size=14),
+          legend.position = "bottom", 
+          axis.text=element_text(size=14),
+        axis.title=element_text(color="blue", size=16),
+        plot.title = element_text(color="red", size=20, face="bold",hjust = 0.5)
+        #panel.border = element_blank()
+       # panel.grid.major = element_blank(), 
+       #panel.grid.minor = element_blank()
+        )
+p1<- p1+scale_y_continuous(labels = comma)
+p1 <- p1 + labs(title = secondYearText,
+                y = ArrivalsText,
+                x = "Months",
+                colour = "Parameter")
+
+p<- ggplot(df, aes(x=Period))
+p<- p + geom_line(aes(x=Period, y=Prices2, group=1, color="Prices"), size=1.5, stat = "identity")
+p<- p + geom_line(aes(x=Period, y=MSP2, group=1, color="MSP"), size=1.5, stat = "identity")
+p<- p + geom_line(aes(x=Period, y=CostA1FL2, group=1, color="CostA1FL"), size=1.5, stat = "identity")
+p <- p + ylim(0,max(df$Prices2, df$MSP2, df$CostA1FL2))
+#p<- p + scale_y_reverse(labels = comma, limits=0,max(df$Prices2, df$MSP2, df$CostA1FL2))
+p <- p + scale_colour_manual(" ", values=c("Arrivals" = "#7B72B6", "Prices" = "#FFAB43", "MSP" = "red", "CostA1FL" = "green"))+
+    theme(legend.key=element_blank(),
+          legend.title=element_blank(),
+          legend.box="horizontal",
+          legend.text=element_text(size=14),
+          legend.position = "bottom", 
+          axis.text=element_text(size=14),
+        axis.title=element_text(color="blue", size=16),
+        plot.title = element_text(color="red", size=20, face="bold",hjust = 0.5),
+          panel.background = element_rect(fill = "transparent"),
+           panel.grid.major = element_blank(), 
+       panel.grid.minor = element_blank()
+       
+    )
+p <- p + labs(title = firstYearText,
+                y = PricesText,
+                x = "Months",
+                colour = "Parameter")
+grid.newpage()
+g1 <- ggplot_gtable(ggplot_build(p1))
+g2 <- ggplot_gtable(ggplot_build(p))
+# overlap the panel of 2nd plot on that of 1st plot
+pp <- c(subset(g1$layout, grepl("panel", g1$layout$name),  select = t:r))
+g <- gtable_add_grob(g1, g2$grobs[grepl("panel", g1$layout$name)], pp$t, 
+    pp$l, pp$b, pp$l)
+
+# Function to invert labels
+hinvert_title_grob <- function(grob){
+widths <- grob$widths
+grob$widths[1] <- widths[3]
+grob$widths[3] <- widths[1]
+grob$vp[[1]]$layout$widths[1] <- widths[3]
+grob$vp[[1]]$layout$widths[3] <- widths[1]
+
+grob$children[[1]]$hjust <- 1 - grob$children[[1]]$hjust 
+grob$children[[1]]$vjust <- 1 - grob$children[[1]]$vjust 
+grob$children[[1]]$x <- unit(1, "npc") - grob$children[[1]]$x
+grob
+}
+
+ # Get the y label from g2, and invert it
+ index <- which(g2$layout$name == "ylab-l") 
+ ylab <- g2$grobs[[index]]                # Extract that grob
+ ylab <- hinvert_title_grob(ylab) 
+
+ g <- gtable_add_cols(g, g2$widths[g2$layout[index, ]$l], pos = max(pp$r))
+
+ g <-gtable_add_grob(g,ylab, t = min(pp$t), l = max(pp$r)+1,b = max(pp$b), r = max(pp$r)+1,clip = "off", name = "ylab-r")
+
+ # Get the y axis from g2, reverse the tick marks and the tick mark labels,
+ # and invert the tick mark labels
+ index <- which(g2$layout$name == "axis-l")  # Which grob
+ yaxis <- g2$grobs[[index]]                    # Extract the grob
+
+ ticks <- yaxis$children[[2]]
+ ticks$widths <- rev(ticks$widths)
+ ticks$grobs <- rev(ticks$grobs)
+
+ plot_theme <- function(p) {
+   plyr::defaults(p$theme, theme_get())
+ }
+
+ tml <- plot_theme(p1)$axis.ticks.length   # Tick mark length
+ ticks$grobs[[1]]$x <- ticks$grobs[[1]]$x - unit(1, "npc") + tml
+
+ ticks$grobs[[2]] <- hinvert_title_grob(ticks$grobs[[2]])
+ yaxis$children[[2]] <- ticks
+
+
+# Put the y axis into g, to the right of the right-most panel
+# Note: Only one column, but two y axes - one for each row of the facet_wrap plot
+ g <- gtable_add_cols(g, g2$widths[g2$layout[index, ]$l], pos = max(pp$r))
+
+ nrows = length(unique(pp$t)) # Number of rows
+ g <- gtable_add_grob(g, rep(list(yaxis), nrows),
+               t = unique(pp$t), l = max(pp$r)+1,
+               b = unique(pp$b), r = max(pp$r)+1,
+               clip = "off", name = paste0("axis-r-", 1:nrows))
+
+# Get the legends
+leg1 <- g1$grobs[[which(g1$layout$name == "guide-box")]]
+leg2 <- g2$grobs[[which(g2$layout$name == "guide-box")]]
+
+# Combine the legends
+g$grobs[[which(g$layout$name == "guide-box")]] <-
+    gtable:::cbind_gtable(leg1, leg2, "first")
+
+grid.newpage()
+grid.draw(g)
+```
